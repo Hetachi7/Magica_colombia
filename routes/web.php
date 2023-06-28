@@ -1,6 +1,12 @@
 <?php
 
+use App\Http\Controllers\CreateHistoryController;
+use App\Http\Controllers\HistoryController;
+use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LOginController;
+use App\Http\Controllers\LoginUserController;
+use App\Http\Controllers\SingupController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +19,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+ Route::get('/', [LOginController::class, 'index']);
 
-Route::get('cursos', function(){
-    return'bienvenido a la pagina';
-});
+ Route::get('subir_historia', [CreateHistoryController::class, 'CreateHistory']);
+
+ Route::get('tarjetas_historia', [HistoryController::class, 'Tarjetas']);
+
+ route::get ('user/recuperar', [LoginUserController::class ,'Recuperar']);
+
+ route::get ('leyenda',[HistoryController::class, 'Leyenda']);
+
+ route::get ('Login',[LOginController::class , 'iniciodesesion']);
+
+ route::get ('formulario', [SingupController::class , 'formulario']);
+
+ route::get ('leyenda/dosleyendas', [HistoryController::class , 'DosLeyendas']);
+
+
+ 
+ route ::get ('contacto', [IndexController::class, 'Contacto']);
