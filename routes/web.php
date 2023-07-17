@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LOginController;
 use App\Http\Controllers\LoginUserController;
 use App\Http\Controllers\SingupController;
+use Illuminate\Auth\Events\Login;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,12 +30,20 @@ use App\Http\Controllers\SingupController;
 
  route::get ('leyenda',[HistoryController::class, 'Leyenda']);
 
- route::get ('Login',[LOginController::class , 'iniciodesesion']);
-
  route::get ('formulario', [SingupController::class , 'formulario']);
 
  route::get ('leyenda/dosleyendas', [HistoryController::class , 'DosLeyendas']);
 
-
+ route::get ('Login',[LOginController::class , 'iniciodesesion']);
  
  route ::get ('contacto', [IndexController::class, 'Contacto']);
+
+ Route::get('Registro', [SingupController::class, 'Registro']);
+ 
+ Route::get('privada', [UserController::class, 'index']);
+
+Route::post('validar-registro', [LOginController::class, 'registro']);
+
+Route::post('inicio-sesion' ,[Logincontroller::class,'Login' ]);
+
+Route::get('Logout', [LOginController::class, 'Logout']);
