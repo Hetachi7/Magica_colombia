@@ -37,16 +37,16 @@ nav a{
     font-size: 20px;
 }
 nav a:hover{
-    color: rgb(236, 30, 30);
+    color: rgb(139, 0, 0);
 }
 
 .mapadiv path{
     fill: rgb(0, 0, 0);
-    stroke: rgb(255, 0, 0);
+    stroke: rgb(139, 0, 0);
     stroke-width: 3px;
 }
 .mapadiv :hover{
-    fill: rgb(255, 0, 0);
+    fill: rgb(139, 0, 0);
 }
 
 .bienvenido img{

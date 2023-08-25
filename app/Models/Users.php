@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Users extends Model
 {
     use HasFactory;
+    public function connectedMap()
+    {
+        return $this->belongsTo('App/Models/Mapasvg');
+    }
+
+
 }

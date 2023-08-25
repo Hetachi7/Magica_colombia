@@ -12,4 +12,9 @@ class Departamento extends Model
     public function historias(){
         return $this->hasMany('App/Models/Historia');
     }
+    public function map()
+    {
+        return $this->belongsTo('App/Models/Mapasvg');
+    }
+
 }
