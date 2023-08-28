@@ -20,7 +20,7 @@ use Illuminate\Auth\Events\Login;
 |
 */
 
- Route::get('/', [LOginController::class, 'index']);
+ Route::get('/', [IndexController::class, 'index']);
 
  Route::get('subir_historia', [CreateHistoryController::class, 'CreateHistory']);
 
@@ -47,3 +47,5 @@ Route::post('validar-registro', [LOginController::class, 'registro']);
 Route::post('inicio-sesion' ,[Logincontroller::class,'Login' ]);
 
 Route::get('Logout', [LOginController::class, 'Logout']);
+
+

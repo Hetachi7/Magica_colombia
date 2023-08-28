@@ -12,7 +12,7 @@
     <div class="formulario">
         <img class="avatar" src="../img/logo.png" alt="Logo de empresa">
         <h1>Inicio de sesión</h1>
-        <form method="post" action="{{roue('inicio-sesion')}}">
+        <form method="post" action="{{route('inicio-sesion')}}">
                
                 <label>Nombre de usuario</label>
                 <input type="text" placeholder="Ingrese su nombre de usuario">

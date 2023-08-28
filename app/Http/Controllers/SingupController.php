@@ -10,8 +10,11 @@ use Illuminate\Support\Facades\Auth;
 
 class SingupController extends Controller
 {
-    public function Registro (){
+    public function formulario (){
     
-        
+        return view('formulario');
+    }
+    public function Registro(){
+        return view('Registro');
     }
 }
