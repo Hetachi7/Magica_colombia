@@ -12,7 +12,7 @@
 
 <header>
 <a href="index.html" class="logo">
-    <img src="{{ asset("{{ asset('local_storage/img/logo.png') }}" ) }}"  alt="">
+    <img src="{{ asset('local_storage/img/logo.png') }}"   alt="">
     <h2>La Mágica Colombia</h2>
 </a>
 
