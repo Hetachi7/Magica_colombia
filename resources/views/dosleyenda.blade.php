@@ -12,23 +12,23 @@
 
 <header>
 <a href="index.html" class="logo">
-    <img src="../img/logo.png" alt="">
+    <img src="{{ asset('local_storage/img/logo.png') }}" alt="">
     <h2>La Mágica Colombia</h2>
 </a>
 
 
 <nav>
-    <a href="subirhistoria.html" class="link">¿Quieres subir tú historia?</a>
-    <a href="quiensomos.html" class="link">¿Quienes Somos?</a>
-    <a href="contacto.html" class="link">Contacto</a>
-    <a href="registrarse.html" class="link">Registráte</a>
+    <a href="subirhistoria.blade.php" class="link">¿Quieres subir tú historia?</a>
+    <a href="quiensomos.blade.php" class="link">¿Quienes Somos?</a>
+    <a href="contacto.blade.php" class="link">Contacto</a>
+    <a href="registrarse.blade.php" class="link">Registráte</a>
 </nav>
 </header>
 
 <div class="audioo">
     <h2>Música de ambiente</h2>
 <audio  controls autoplay>
-    <source src="../img/musicafondo.mp3" type="audio/mpeg">
+    <source src="{{ asset('local_storage/img/musicafondo.mp3') }}"  type="audio/mpeg">
     
 </audio></div>
 
@@ -50,7 +50,7 @@
             rerum tempore provident pariatur. Doloremque ad </p>
             
             <figure>
-                <img id="caquiona" src="../img/cauca/Caquiona/virgen.jpg" alt="">
+                <img id="caquiona" src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}"  alt="">
             </figure>       
             ea perspiciatis facere qui, beatae iure quisquam dignissimos enim numquam! Facere hic rem 
             magnam et voluptate, necessitatibus eos quasi a debitis obcaecati fugiat delectus harum voluptas enim nihil tempora quia quis architecto 
@@ -63,8 +63,8 @@
               iusto fugiat impedit aspernatur tenetur consequuntur.
 
 
-     <a href="leyenda.html"><img id="flecha1" src="../img/izquierda.png" alt=""></a>
-        <a href="#"><img id="flecha" src="../img/derecha.png" alt=""></a>
+     <a href="leyenda.blade.php"><img id="flecha1" src="{{ asset('local_storage/img/izquierda.png') }}"  alt=""></a>
+        <a href="#"><img id="flecha" src="{{ asset('local_storage/img/derecha.png') }}"  alt=""></a>
     
 </div>
 

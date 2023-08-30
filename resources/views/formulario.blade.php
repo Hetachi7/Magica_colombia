@@ -11,28 +11,28 @@
 <body>
 
 <header>
-<a href="index.html" class="logo">
-    <img src="../img/logo.png" alt="">
+<a href="index.blade.php" class="logo">
+    <img src="{{ asset('local_storage/img/logo.png') }}" alt="">
     <h2>La Mágica Colombia</h2>
 </a>
 
 
 <nav>
-    <a href="subirhistoria.html" class="link">¿Quieres subir tú historia?</a>
-    <a href="quiensomos.html" class="link">¿Quienes Somos?</a>
-    <a href="contacto.html" class="link">Contacto</a>
-    <a href="registro.html" class="link">Registráte</a>
+    <a href="subirhistoria.blade.php" class="link">¿Quieres subir tú historia?</a>
+    <a href="quiensomos.blade.php" class="link">¿Quienes Somos?</a>
+    <a href="contacto.balde.php" class="link">Contacto</a>
+    <a href="registro.blade.php" class="link">Registráte</a>
 </nav>
 </header>
 <div class="fonhis1">
-    <img src="../img/fonhis1.png" alt="">
+    <img src="{{ asset('local_storage/img/fonhis1.png') }}" alt="">
 </div>
 <div class="fonhis2">
-    <img src="../img/fonhis2.png" alt="">
+    <img src="{{ asset('local_storage/img/fonhis2.png') }}"  alt="">
 </div>
 
 <div class="subirh">
-    <img src="../img/subirhistoria.png">
+    <img src="{{ asset('local_storage/img/subirhistoria.png') }}" >
 </div>
 
 <div class="formulario">

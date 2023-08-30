@@ -10,7 +10,7 @@
 <body>
 
     <div class="formulario">
-        <img class="avatar" src="../img/logo.png" alt="Logo de empresa">
+        <img class="avatar" src="{{ asset('local_storage/img/logo.png') }}"  alt="Logo de empresa">
         <h1>Recuperación de cuenta</h1>
         <form action="post">
                
@@ -27,9 +27,9 @@
                 
 
                   
-                <a href="registrarse.html">Aún no tiene cuenta</a>
-                <a href="iniciodesesion.html">Iniciar sesión</a>
-                <a href="index.html">Ir al inicio</a>
+                <a href="registrarse.blade.php">Aún no tiene cuenta</a>
+                <a href="iniciodesesion.blade.php">Iniciar sesión</a>
+                <a href="index.blade.php">Ir al inicio</a>
                
 
             

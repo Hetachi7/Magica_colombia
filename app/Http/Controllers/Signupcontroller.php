@@ -2,23 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class LoginUserController extends Controller
+class Signupcontroller extends Controller
 {
-    public function Recuperar(){
-        return view('Recuperar');
-
-
+    public function registro(){
+        return view('Registro');
     }
-    public function login(){
-        return view('iniciodesesion');
-    }
-    
-    public function validarInicio(Request $request)
+
+    public function validarRegistro(Request $request)
 {
     $validatedData = $request->validate([
         'nombres' => 'required',
+        'apellidos' => 'required',
         'email' => 'required|email|unique:users,email',
         'password' => 'required|min:6',
     ]);
@@ -26,7 +23,8 @@ class LoginUserController extends Controller
     // Aquí puedes realizar el proceso de registro si la validación es exitosa
     // Por ejemplo: User::create($validatedData);
 
-    return redirect()->route('/')->with('success', 'Inicio correcto');
-}
+    return redirect()->route('/')->with('success', 'Registro exitoso');
 }
 
+
+}

@@ -4,9 +4,8 @@ use App\Http\Controllers\CreateHistoryController;
 use App\Http\Controllers\HistoryController;
 use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LOginController;
 use App\Http\Controllers\LoginUserController;
-use App\Http\Controllers\SingupController;
+use App\Http\Controllers\Signupcontroller;
 use Illuminate\Auth\Events\Login;
 
 /*
@@ -24,28 +23,26 @@ use Illuminate\Auth\Events\Login;
 
  Route::get('subir_historia', [CreateHistoryController::class, 'CreateHistory']);
 
- Route::get('tarjetas_historia', [HistoryController::class, 'Tarjetas']);
+ route::get ('formulario', [CreateHistoryController::class , 'formulario']);
 
- route::get ('user/recuperar', [LoginUserController::class ,'Recuperar']);
+ Route::get('tarjetas_historia', [HistoryController::class, 'Tarjetas']);
 
  route::get ('leyenda',[HistoryController::class, 'Leyenda']);
 
- route::get ('formulario', [SingupController::class , 'formulario']);
+ route::get ('user/recuperar', [LoginUserController::class ,'Recuperar']);
+
+ route::get ('Login',[LoginUserController::class , 'login']);
+
+ Route::get('validar-inicio', [LoginUserController::class, 'validarInicio']);
 
  route::get ('leyenda/dosleyendas', [HistoryController::class , 'DosLeyendas']);
-
- route::get ('Login',[LOginController::class , 'iniciodesesion']);
  
  route ::get ('contacto', [IndexController::class, 'Contacto']);
 
  Route::get('Registro', [SingupController::class, 'Registro']);
- 
- Route::get('privada', [UserController::class, 'index']);
 
-Route::post('validar-registro', [LOginController::class, 'registro']);
+Route::post('validar-registro', [Singupcontroller::class, 'validarRegistro']);
 
-Route::post('inicio-sesion' ,[Logincontroller::class,'Login' ]);
 
-Route::get('Logout', [LOginController::class, 'Logout']);
 
 

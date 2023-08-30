@@ -10,13 +10,17 @@
 <body>
 
     <div class="formulario">
-        <img class="avatar" src="../img/logo.png" alt="Logo de empresa">
+        <img class="avatar" src="{{ asset('local_storage/img/logo.png') }}"  alt="Logo de empresa">
         <h1>Inicio de sesión</h1>
-        <form method="post" action="{{route('inicio-sesion')}}">
+        <form method="post" action="{{route('validar-inicio')}}">
                
                 <label>Nombre de usuario</label>
                 <input type="text" placeholder="Ingrese su nombre de usuario">
                 
+                @error('apellidos')
+                <div class="alert alert-danger">{{ $message }}</div>
+                @enderror
+
             
 
                 <label>Contraseña</label>
@@ -28,8 +32,8 @@
                 
 
                   
-                <a href="registrarse.html">Aún no tiene cuenta</a>
-                <a href="recuperar.html">Ha olvidado su contraseña</a>
+                <a href="Registrarse.blade.php">Aún no tiene cuenta</a>
+                <a href="recuperar.blade.php">Ha olvidado su contraseña</a>
                
 
             

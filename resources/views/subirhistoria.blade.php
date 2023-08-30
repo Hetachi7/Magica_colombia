@@ -11,29 +11,29 @@
 
 <header>
 <a href="index.html" class="logo">
-    <img src="../img/logo.png" alt="">
+    <img src="{{ asset('local_storage/img/logo.png') }}" alt="">
     <h2>La Mágica Colombia</h2>
 </a>
 
 
 <nav>
-    <a href="subirhistoria.html" class="link">¿Quieres subir tú historia?</a>
-    <a href="quiensomos.html" class="link">¿Quienes Somos?</a>
-    <a href="contacto.html" class="link">Contacto</a>
-    <a href="registra.html" class="link">Registráte</a>
+    <a href="subirhistoria.blade.php" class="link">¿Quieres subir tú historia?</a>
+    <a href="quiensomos.blade.php" class="link">¿Quienes Somos?</a>
+    <a href="contacto.blade.php" class="link">Contacto</a>
+    <a href="registra.blade.php" class="link">Registráte</a>
 </nav>
 </header>
 
 <div class="fonhis1">
-    <img src="../img/fonhis1.png" alt="">
+    <img src="{{ asset('local_storage/img/fonhis1.png') }}"  alt="">
 </div>
 <div class="fonhis2">
-    <img src="../img/fonhis2.png" alt="">
+    <img src="{{ asset('local_storage/img/fonhis2.png') }}"  alt="">
 </div>
 
 <div class="texto">
 
-    <div class="pregunta"><img src="../img/historia.png" id="historia"></div>
+    <div class="pregunta"><img src="{{ asset('local_storage/img/historia.png') }}"  id="historia"></div>
 
 <p><h2>Para subir tu historia primero debes redactarla lo mejor posible, que tenga lógica y lo mas importante que sea verdad.
     Luego debes presionarle al boton de "+".
@@ -43,8 +43,8 @@
     a que uno de nuestros administradores la revise y sea subida correctacmente.
 </h2>
 
-<a href="formulario.html"><div class="subir">
-    <img src="../img/botonmas.png" alt="">
+<a href="formulario.blade.php"><div class="subir">
+    <img src="{{ asset('local_storage/img/botonmas.png') }}"  alt="">
 </div></a>
 
 

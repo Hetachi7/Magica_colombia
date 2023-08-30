@@ -11,34 +11,34 @@
 <body>
 
 <header>
-<a href="index.html" class="logo">
-    <img src="../img/logo.png" alt="">
+<a href="index.blade.php" class="logo">
+    <img src="{{ asset('local_storage/img/bienvenido.png') }}"  alt="">
     <h2>La Mágica Colombia</h2>
 </a>
 
 
 <nav>
-    <a href="subirhistoria.html" class="link">¿Quieres subir mi historia?</a>
-    <a href="quiensomos.html" class="link">¿Quienes Somos?</a>
-    <a href="contacto.html" class="link">Contacto</a>
-    <a href="registrarse.html" class="link">Registráte</a>
+    <a href="subirhistoria.blade.php" class="link">¿Quieres subir mi historia?</a>
+    <a href="quiensomos.blade.php" class="link">¿Quienes Somos?</a>
+    <a href="contacto.blade.php" class="link">Contacto</a>
+    <a href="registrarse.blade.php" class="link">Registráte</a>
 </nav>
 </header>
 
 <div class="fonhis1">
-    <img src="../img/fonhis1.png" alt="">
+    <img src="{{ asset('local_storage/img/fonhis1.png') }}"  alt="">
 </div>
 <div class="fonhis2">
-    <img src="../img/fonhis2.png" alt="">
+    <img src="{{ asset('local_storage/img/fonhis2.png') }}"  alt="">
 </div>
 
 <div class="texto">
 
- <a href="#"><img src="../img/facebook.png" ></a>
+ <a href="#"><img src="{{ asset('local_storage/img/facebook.png') }}"  ></a>
 
- <a href="#"> <img src="../img/instagram.png" ></a>
+ <a href="#"> <img src="{{ asset('local_storage/img/instagram.png') }}" ></a>
 
- <a href="#"><img src="../img/gmail.png" ></a>
+ <a href="#"><img src="{{ asset('local_storage/img/gmail.png') }}" ></a>
 
 
 

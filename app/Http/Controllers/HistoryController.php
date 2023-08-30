@@ -6,11 +6,10 @@ use Illuminate\Http\Request;
 
 class HistoryController extends Controller
 {
-  public function Tarjetas(){ 
-    return view('tarjetahistoria');
-
-
+  public function Tarjetas(){
+    return view('tarjetashistoria');
   }
+
 
   public function Leyenda (){
 return view('leyenda');

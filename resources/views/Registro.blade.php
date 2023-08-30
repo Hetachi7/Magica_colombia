@@ -10,22 +10,32 @@
 <body>
 
     <div class="formulario">
-        <img class="avatar" src="../img/logo.png" alt="Logo de empresa">
+        <img class="avatar" src="{{ asset('local_storage/img/logo.png') }}"  alt="Logo de empresa">
         <h1>Registrate</h1>
         <form method= "post" action="/{{route('validar-Registro')}}">
                @csrf
                 <label>Nombres</label>
-                <input type="text" placeholder="Ingrese sus nombres">
+                <input type="text" name="nombres" placeholder="Ingrese sus nombres">
 
                 <label>Apellidos</label>
-                <input type="text" placeholder="Ingrese sus Apellidos">
+                <input type="text" name="apellidos" placeholder="Ingrese sus Apellidos">
 
-                <label>G-mail</label>
-                <input type="text" placeholder="Ingrese su G-mail">
-                
+                @error('apellidos')
+                <div class="alert alert-danger">{{ $message }}</div>
+                @enderror
+
+                <label>E-mail</label>
+                <input type="text" name="email"  placeholder="Ingrese su G-mail">
+
+                @error('email')
+                <div class="alert alert-danger">{{ $message }}</div>
+                @enderror
                 <label>Contraseña</label>
-                <input type="password" placeholder="Ingrese su contraseña">
-                
+                <input type="password" name="pasword" placeholder="Ingrese su contraseña">
+
+                @error('password')
+                <div class="alert alert-danger">{{ $message }}</div>
+                @enderror
 
                 
                     <input href="index.html"type="submit" value="Registrarse">
