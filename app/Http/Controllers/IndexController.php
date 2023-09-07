@@ -14,4 +14,9 @@ class IndexController extends Controller
     public function Index (){
         return view('index');
     }
+
+    public function Perfil(){
+        return view('perfil');
+    }
 }
+

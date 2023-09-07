@@ -19,7 +19,9 @@ use Illuminate\Auth\Events\Login;
 |
 */
 
- Route::get('/', [IndexController::class, 'index']);
+ Route::get('/inicio', [IndexController::class, 'index']);
+
+ Route::get('perfil',[IndexController::class,'perfil']);
 
  Route::get('subir_historia', [CreateHistoryController::class, 'CreateHistory']);
 
@@ -41,7 +43,7 @@ use Illuminate\Auth\Events\Login;
 
  Route::get('Registro', [SingupController::class, 'Registro']);
 
-Route::post('validar-registro', [Singupcontroller::class, 'validarRegistro']);
+ Route::post('validar-registro', [Singupcontroller::class, 'validarRegistro']);
 
 
 
