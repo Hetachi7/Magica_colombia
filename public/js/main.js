@@ -122,7 +122,7 @@ function vaEmail (email){
     return /\w+@\w+\.+[a-z]/.test(email);
 }
 //////////////////// cambiar foto de perfil
-
+/*
 const inputImagen = document.getElementById('inputImagen');
 const imagenPerfil = document.getElementById('imagenPerfil');
 
@@ -139,4 +139,4 @@ inputImagen.addEventListener('change', function(event) {
         reader.readAsDataURL(archivo);
     }
 });
-
+*/
