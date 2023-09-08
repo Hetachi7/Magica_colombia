@@ -5,34 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{{asset('css_index/Eformulario.css')}}">
+    <link rel="stylesheet" href="<?php echo e(asset('css_index/Eformulario.css')); ?>">
 
 </head>
 <body>
 
 <header>
-<a href="{{route('inicio')}}" class="logo">
-    <img src="{{ asset('local_storage/img/logo.png') }}" alt="">
+<a href="<?php echo e(route('inicio')); ?>" class="logo">
+    <img src="<?php echo e(asset('local_storage/img/logo.png')); ?>" alt="">
     <h2>La Mágica Colombia</h2>
 </a>
 
 
 <nav>
-    <a href="{{route('subirhistoria')}}" class="link">¿Quieres subir tú historia?</a>
-    <a href="{{route('info')}}" class="link">¿Quienes Somos?</a>
-    <a href="{{route('contac')}}" class="link">Contacto</a>
-    <a href="{{route('registro')}}" class="link">Registráte</a>
+    <a href="<?php echo e(route('subirhistoria')); ?>" class="link">¿Quieres subir tú historia?</a>
+    <a href="<?php echo e(route('info')); ?>" class="link">¿Quienes Somos?</a>
+    <a href="<?php echo e(route('contac')); ?>" class="link">Contacto</a>
+    <a href="<?php echo e(route('registro')); ?>" class="link">Registráte</a>
 </nav>
 </header>
 <div class="fonhis1">
-    <img src="{{ asset('local_storage/img/fonhis1.png') }}" alt="">
+    <img src="<?php echo e(asset('local_storage/img/fonhis1.png')); ?>" alt="">
 </div>
 <div class="fonhis2">
-    <img src="{{ asset('local_storage/img/fonhis2.png') }}"  alt="">
+    <img src="<?php echo e(asset('local_storage/img/fonhis2.png')); ?>"  alt="">
 </div>
 
 <div class="subirh">
-    <img src="{{ asset('local_storage/img/subirhistoria.png') }}" >
+    <img src="<?php echo e(asset('local_storage/img/subirhistoria.png')); ?>" >
 </div>
 
 <div class="formulario">
@@ -135,4 +135,4 @@
         
             </form>
             <input type="submit" value="Adjuntar Archivo">
-</div>
+</div><?php /**PATH C:\xampp\htdocs\Magica_colombia\resources\views/formulario.blade.php ENDPATH**/ ?>

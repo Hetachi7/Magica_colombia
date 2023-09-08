@@ -11,17 +11,17 @@
 <body>
 
 <header>
-<a href="index.html" class="logo">
+<a href="{{route('inicio')}}" class="logo">
     <img src="{{ asset('local_storage/img/logo.png') }}" alt="">
     <h2>La Mágica Colombia</h2>
 </a>
 
 
 <nav>
-    <a href="subirhistoria.blade.php" class="link">¿Quieres subir tú historia?</a>
-    <a href="quiensomos.blade.php" class="link">¿Quienes Somos?</a>
-    <a href="contacto.blade.php" class="link">Contacto</a>
-    <a href="registrarse.blade.php" class="link">Registráte</a>
+    <a href="{{route('subirhistoria')}}" class="link">¿Quieres subir tú historia?</a>
+    <a href="{{route('info')}}" class="link">¿Quienes Somos?</a>
+    <a href="{{route('contac')}}" class="link">Contacto</a>
+    <a href="{{route('registro')}}" class="link">Registráte</a>
 </nav>
 </header>
 
@@ -63,7 +63,7 @@
               iusto fugiat impedit aspernatur tenetur consequuntur.
 
 
-     <a href="leyenda.blade.php"><img id="flecha1" src="{{ asset('local_storage/img/izquierda.png') }}"  alt=""></a>
+     <a href="{{route('leyenda')}}"><img id="flecha1" src="{{ asset('local_storage/img/izquierda.png') }}"  alt=""></a>
         <a href="#"><img id="flecha" src="{{ asset('local_storage/img/derecha.png') }}"  alt=""></a>
     
 </div>

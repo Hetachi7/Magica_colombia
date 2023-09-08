@@ -28,12 +28,12 @@
                 
 
                 
-                    <input href="index.html"type="submit" value="Iniciar Sesion">
+                    <input href="{{route('inicio')}}"type="submit" value="Iniciar Sesion">
                 
 
                   
-                <a href="Registrarse.blade.php">Aún no tiene cuenta</a>
-                <a href="recuperar.blade.php">Ha olvidado su contraseña</a>
+                <a href="{{route('registro')}}">Aún no tiene cuenta</a>
+                <a href="{{route('recuperar')}}">Ha olvidado su contraseña</a>
                
 
             

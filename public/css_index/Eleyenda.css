@@ -116,7 +116,7 @@ nav a:hover{
    line-height: 2;
    margin-top: 200px;
    margin-bottom: 200px;
-   background-image: url(../img/hoja.png);
+   background-image: url(../local_storage/img/hoja.png);
    background-repeat: no-repeat;
    background-size: 1000px 1250px;
    background-position: center;

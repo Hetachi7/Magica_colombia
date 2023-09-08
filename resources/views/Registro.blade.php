@@ -42,8 +42,8 @@
                 
 
                   
-                <a href="iniciodesesion.html">¿Ya tiene cuenta?</a>
-                <a href="recuperar.html">Ha olvidado su contraseña</a>
+                <a href="{{route('iniciosesion')}}">¿Ya tiene cuenta?</a>
+                <a href="{{route('recuperar')}}">Ha olvidado su contraseña</a>
                
 
             

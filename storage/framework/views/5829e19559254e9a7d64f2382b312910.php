@@ -84,7 +84,7 @@
                     <small>Error message</small>
                 </div>
                 <div>
-                    <img id="imagenPerfil" src="<?php echo e(asset('local_storage/img/perfil.jpg')); ?>"   alt="Imagen de Perfil">
+                    <img id="imagenPerfil" src="<?php echo e(asset('')); ?>"   alt="Imagen de Perfil">
                 </div>
                 
                 <div>

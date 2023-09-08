@@ -9,7 +9,6 @@ class IndexController extends Controller
     public function Contacto(){
         return view('Contacto');
 
-
     }
     public function Index (){
         return view('index');
@@ -18,5 +17,10 @@ class IndexController extends Controller
     public function Perfil(){
         return view('perfil');
     }
+
+    public function info(){
+       return view('quiensomos');
+    }
 }
+
 

@@ -10,17 +10,16 @@
 <body>
 
 <header>
-<a href="index.html" class="logo">
+<a href="{{route('inicio')}}" class="logo">
     <img src="{{ asset('local_storage/img/logo.png') }}" alt="">
     <h2>La Mágica Colombia</h2>
 </a>
 
 
 <nav>
-    <a href="subirhistoria.blade.php" class="link">¿Quieres subir tú historia?</a>
-    <a href="quiensomos.blade.php" class="link">¿Quienes Somos?</a>
-    <a href="contacto.blade.php" class="link">Contacto</a>
-    <a href="registra.blade.php" class="link">Registráte</a>
+    <a href="{{route('info')}}" class="link">¿Quienes Somos?</a>
+    <a href="{{route('contac')}}" class="link">Contacto</a>
+    <a href="{{route('registro')}}" class="link">Registráte</a>
 </nav>
 </header>
 
@@ -43,7 +42,7 @@
     a que uno de nuestros administradores la revise y sea subida correctacmente.
 </h2>
 
-<a href="formulario.blade.php"><div class="subir">
+<a href="{{route('form')}}"><div class="subir">
     <img src="{{ asset('local_storage/img/botonmas.png') }}"  alt="">
 </div></a>
 

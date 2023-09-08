@@ -19,31 +19,33 @@ use Illuminate\Auth\Events\Login;
 |
 */
 
- Route::get('/inicio', [IndexController::class, 'index']);
+ Route::get('/inicio', [IndexController::class, 'index'])->name('inicio');
 
- Route::get('perfil',[IndexController::class,'perfil']);
+ Route::get('quienesomos',[IndexController::class,'info'])->name('info');
 
- Route::get('subir_historia', [CreateHistoryController::class, 'CreateHistory']);
+ Route::get('perfil',[IndexController::class,'perfil'])->name('perfil');
 
- route::get ('formulario', [CreateHistoryController::class , 'formulario']);
+ Route::get('subir_historia', [CreateHistoryController::class, 'CreateHistory'])->name('subirhistoria');
 
- Route::get('tarjetas_historia', [HistoryController::class, 'Tarjetas']);
+ route::get ('formulario', [CreateHistoryController::class , 'formulario'])->name('form');
 
- route::get ('leyenda',[HistoryController::class, 'Leyenda']);
+ Route::get('tarjetas_historia', [HistoryController::class, 'Tarjetas'])->name('historia');
 
- route::get ('user/recuperar', [LoginUserController::class ,'Recuperar']);
+ Route::get ('leyenda',[HistoryController::class, 'Leyenda'])->name('leyenda');
 
- route::get ('Login',[LoginUserController::class , 'login']);
+ route::get ('user/recuperar', [LoginUserController::class ,'Recuperar'])->name('recuperar');
+
+ route::get ('Login',[LoginUserController::class , 'login'])->name('iniciosesion');
 
  Route::get('validar-inicio', [LoginUserController::class, 'validarInicio']);
 
- route::get ('leyenda/dosleyendas', [HistoryController::class , 'DosLeyendas']);
+ route::get ('dosleyendas', [HistoryController::class , 'DosLeyendas']);
  
- route ::get ('contacto', [IndexController::class, 'Contacto']);
+ route ::get ('contacto', [IndexController::class, 'Contacto'])->name('contac');
 
- Route::get('Registro', [SingupController::class, 'Registro']);
+ Route::get('Registro', [Signupcontroller::class, 'Registro'])->name('registro');
 
- Route::post('validar-registro', [Singupcontroller::class, 'validarRegistro']);
+ Route::post('validar-registro', [Signupcontroller::class, 'validarRegistro']);
 
 
 
