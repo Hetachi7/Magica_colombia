@@ -21,7 +21,7 @@
    <a href="<?php echo e(route('subirhistoria')); ?>" class="link">¿Quieres subir tú historia?</a>
    <a href="<?php echo e(route('info')); ?>" class="link">¿Quienes Somos?</a>
    <a href="<?php echo e(route('contac')); ?>" class="link">Contacto</a>
-   <a href="<?php echo e(route('registro')); ?>" class="link">Registráte</a>
+   ,<a href="<?php echo e(route('perfil')); ?>"class="link">Perfil</a>
 </nav>
 </header>
 

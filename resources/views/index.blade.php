@@ -21,7 +21,7 @@
    <a href="{{route('subirhistoria')}}" class="link">¿Quieres subir tú historia?</a>
    <a href="{{route('info')}}" class="link">¿Quienes Somos?</a>
    <a href="{{route('contac')}}" class="link">Contacto</a>
-   <a href="{{route('registro')}}" class="link">Registráte</a>
+   ,<a href="{{route('perfil')}}"class="link">Perfil</a>
 </nav>
 </header>
 

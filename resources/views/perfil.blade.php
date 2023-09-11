@@ -9,10 +9,23 @@
     <link rel="stylesheet" href="{{asset('css_index/Estilo-Perfil.css')}}">
 </head>
 <body>
-
+ 
+    <header>
+        <a href="{{route('inicio')}}" class="logo">
+            <img src="{{asset('local_storage/img/logo.png')}}"  alt="">
+            <h2>La Mágica Colombia</h2>
+        </a>
+        
+        
+        <nav>
+            <a href="{{route('subirhistoria')}}" class="link">¿Quieres subir tú historia?</a>
+            <a href="{{route('info')}}" class="link">¿Quienes Somos?</a>
+            <a href="{{route('contac')}}" class="link">Contacto</a>
+        </nav>
+        </header>
 
     <div class="perfil">
-        <div class="header">
+        <div class="head">
             <h1>Perfil</h1>
          <p id="fo-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam maiores temporibus eos illo? Delectus adipisci veniam enim ratione deleniti eaque.</p>
         </div>

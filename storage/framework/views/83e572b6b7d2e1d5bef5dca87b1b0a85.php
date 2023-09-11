@@ -11,17 +11,17 @@
 <body>
 
 <header>
-<a href="index.blade.php" class="logo">
+<a href="<?php echo e(route('inicio')); ?>" class="logo">
     <img src="<?php echo e(asset('local_storage/img/bienvenido.png')); ?>"  alt="">
     <h2>La Mágica Colombia</h2>
 </a>
 
 
 <nav>
-    <a href="subirhistoria.blade.php" class="link">¿Quieres subir mi historia?</a>
-    <a href="quiensomos.blade.php" class="link">¿Quienes Somos?</a>
-    <a href="contacto.blade.php" class="link">Contacto</a>
-    <a href="registrarse.blade.php" class="link">Registráte</a>
+    <a href="<?php echo e(route('subirhistoria')); ?>" class="link">¿Quieres subir tú historia?</a>
+    <a href="<?php echo e(route('info')); ?>" class="link">¿Quienes Somos?</a>
+    <a href="<?php echo e(route('contac')); ?>" class="link">Contacto</a>
+    <a href="<?php echo e(route('registro')); ?>" class="link">Registráte</a>
 </nav>
 </header>
 
