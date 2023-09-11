@@ -119,7 +119,7 @@ nav a:hover{
     height: 100%;
     width: 50%; 
     float: right ;
-    background-image: url(../public/local_storage/hoja.png);
+    background-image: url(../local_storage/img/hoja.png);
     background-repeat: no-repeat;
     background-size: 1000px 1000px;
 }
