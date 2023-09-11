@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class LoginUserController extends Controller
@@ -26,7 +27,9 @@ class LoginUserController extends Controller
     // Aquí puedes realizar el proceso de registro si la validación es exitosa
     // Por ejemplo: User::create($validatedData);
 
-    return redirect()->route('/')->with('success', 'Inicio correcto');
+    
+
+    return redirect()->route('inicio')->with('success', 'Inicio correcto');
 }
 }
 

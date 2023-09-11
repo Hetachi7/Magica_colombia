@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CreateHistoryController;
+use App\Http\Controllers\DepartamentUserController;
 use App\Http\Controllers\HistoryController;
 use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
@@ -45,8 +46,45 @@ use Illuminate\Auth\Events\Login;
 
  Route::get('Registro', [Signupcontroller::class, 'Registro'])->name('registro');
 
- Route::post('validar-registro', [Signupcontroller::class, 'validarRegistro']);
+ Route::middleware(['auth'])->group(function(){
 
 
+Route::post('Validacion','Signupcontroller')->name('Validar');
+
+ });
+ 
 
 
+ /////////////////////////ROUTES OF DEPARTAMENTS/////////////////////////////////////////////////////////////
+
+Route ::get('tarjetaAmazonas',[DepartamentUserController::class,'Amazonas'])->name('Amaz');
+
+Route ::get('tarjetaArauca',[DepartamentUserController::class,'Arauca'])->name('Arau');
+
+Route ::get('tarjetaCaqueta',[DepartamentUserController::class,'Caqueta'])->name('Caque');
+
+Route ::get('tarjetaCauca',[DepartamentUserController::class,'Cauca'])->name('Cau');
+
+Route ::get('tarjetaCesar',[DepartamentUserController::class,'Cesar'])->name('Ces');
+
+Route ::get('tarjetaChoco',[DepartamentUserController::class,'Choco'])->name('Cho');
+
+Route ::get('tarjetaCordoba',[DepartamentUserController::class,'Cordoba'])->name('Cordo');
+
+Route ::get('tarjetaGuainia',[DepartamentUserController::class,'Guainia'])->name('Guai');
+
+Route ::get('tarjetaGuajira',[DepartamentUserController::class,'Guajira'])->name('Guaj');
+
+Route ::get('tarjetaGuaviare',[DepartamentUserController::class,'Guaviare'])->name('Guave');
+
+Route ::get('tarjetaMagdalena',[DepartamentUserController::class,'Magdalena'])->name('Magda');
+
+Route ::get('tarjetaPutumayo',[DepartamentUserController::class,'Putumayo'])->name('Putum');
+
+Route ::get('tarjetaSucre',[DepartamentUserController::class,'Sucre'])->name('Suc');
+
+Route ::get('tarjetaVaupes',[DepartamentUserController::class,'Vaupes'])->name('Vaup');
+
+Route ::get('tarjetaVichada',[DepartamentUserController::class,'Vichada'])->name('Vicha');
+
+Route ::get('tarjetaNariño',[DepartamentUserController::class,'Nariño'])->name('Nari');

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class Signupcontroller extends Controller
@@ -11,7 +12,7 @@ class Signupcontroller extends Controller
         return view('Registro');
     }
 
-    public function validarRegistro(Request $request)
+    public function Validacion(Request $request)
 {
     $validatedData = $request->validate([
         'nombres' => 'required',
@@ -23,7 +24,14 @@ class Signupcontroller extends Controller
     // Aquí puedes realizar el proceso de registro si la validación es exitosa
     // Por ejemplo: User::create($validatedData);
 
-    return redirect()->route('/')->with('success', 'Registro exitoso');
+    User::create([
+        'nombres'=>$request->input('nombres'),
+        'apellidos'=>$request->input('apellidos'),
+        'email'=>$request->input('email'),
+        'password'=>$request->input('password'),
+    ]);
+
+    return redirect()->route('inicio')->with('success', 'Registro exitoso');
 }
 
 
