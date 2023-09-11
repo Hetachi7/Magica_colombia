@@ -48,6 +48,19 @@ use Illuminate\Auth\Events\Login;
 
  Route::post('validar-registro', [Signupcontroller::class, 'validarRegistro']);
 
+//RUTAS DEPARTAMENTOS
 
 
+Route::get('tarjetaCundinamarca',[DepartamentUserController::class, 'Cundinamarca'])->name('cundi');
 
+Route::get('tarjetaAntioquia', [DepartamentUserController::class, 'Antioquia'])->name ('antiqi');
+
+Route::get('tarjetaSantander', [DepartamentUserController::class, 'Santander'])->name ('santa');
+
+Route::get('tarjetaAtlantico', [DepartamentUserController::class, 'Atlantico']) ->name ('atlan');
+
+Route::get('tarjetaValleDelCauca', [DepartamentUserController::class, 'ValleDelCauca'])->name ('vallunomano');
+
+Route::get('tarjetaRisaralda',[DepartamentUserController::class])->name('risas');
+
+Route::get('tarjetaCaldas', [DepartamentUserController::class, 'Caldas'])->name ('caldas');
