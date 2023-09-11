@@ -38,11 +38,7 @@ use Illuminate\Auth\Events\Login;
 
  route::get ('Login',[LoginUserController::class , 'login'])->name('iniciosesion');
 
- Route::get('vali
- 
- 
- 
- dar-inicio', [LoginUserController::class, 'validarInicio']);
+ Route::get('validar-inicio', [LoginUserController::class, 'validarInicio']);
 
  route::get ('dosleyendas', [HistoryController::class , 'DosLeyendas']);
  
