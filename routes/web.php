@@ -64,3 +64,55 @@ Route::get('tarjetaValleDelCauca', [DepartamentUserController::class, 'ValleDelC
 Route::get('tarjetaRisaralda',[DepartamentUserController::class])->name('risas');
 
 Route::get('tarjetaCaldas', [DepartamentUserController::class, 'Caldas'])->name ('caldas');
+
+Route::get('tarjetaAmazonas', [DepartamentUserController::class, 'Amazonas'])->name ('amazing');
+
+Route::get('tarjetaArauca', [DepartamentUserController::class, 'Arauca'])->name ('aureano');
+
+Route::get('tarjetaCauca', [DepartamentUserController::class, 'Cauca'])->name ('caucasicos');
+
+Route::get('tarjetaCesar', [DepartamentUserController::class, 'Cesar'])->name ('cesaraugusto');
+
+Route::get('tarjetaChoco', [DepartamentUserController::class, 'Choco'])->name ('chocokripi');
+
+Route::get('tarjetaCordoba', [DepartamentUserController::class, 'Cordoba'])->name ('gordoba');
+
+Route::get('tarjetaCaqueta', [DepartamentUserController::class, 'Caqueta'])->name ('caquebrr');
+
+Route::get('tarjetaGuainia', [DepartamentUserController::class, 'Guainia'])->name ('guayayai');
+
+Route::get('tarjetaGuaviare', [DepartamentUserController::class, 'Guaviare'])->name ('suave');
+
+Route::get('tarjetaGuajira', [DepartamentUserController::class, 'Guajira'])->name ('naira');
+
+Route::get('tarjetaMagdalena', [DepartamentUserController::class, 'Magdalena'])->name ('oiemagda');
+
+Route::get('tarjetaNariño', [DepartamentUserController::class, 'Nariño'])->name ('nariñon');
+
+Route::get('tarjetaPutumayo', [DepartamentUserController::class, 'Putumayo'])->name ('utumaño');
+
+Route::get('tarjetaSucre', [DepartamentUserController::class, 'Sucre'])->name ('suck');
+
+Route::get('tarjetaVichada', [DepartamentUserController::class, 'Vichada'])->name ('fichada');
+
+Route::get('tarjetaVaupes', [DepartamentUserController::class, 'Vaupes'])->name ('elpez');
+
+Route::get('tarjetaBolivar', [DepartamentUserController::class, 'Bolivar'])->name ('bolivarianos');
+
+Route::get('tarjetaBoyaca', [DepartamentUserController::class, 'Boyaca'])->name ('boyacomans');
+
+Route::get('tarjetaCasanare', [DepartamentUserController::class, 'Casanare'])->name ('cazans');
+
+Route::get('tarjetaHuila', [DepartamentUserController::class, 'Huila'])->name ('aguila');
+
+Route::get('tarjetaMeta', [DepartamentUserController::class, 'Meta'])->name ('metantaforas');
+
+Route::get('tarjetaNorteSantander', [DepartamentUserController::class, 'NorteDeSantander'])->name ('norteños');
+
+Route::get('tarjetaQuindio', [DepartamentUserController::class, 'Quindio'])->name ('qinflow');
+
+Route::get('tarjetaTolima', [DepartamentUserController::class, 'Tolima'])->name ('laslechonas');
+
+
+
+

@@ -74,7 +74,7 @@ return view ('tarjetacundinamarca');
         return view ('tarjetaCordoba');
     }
     public function Guainia (){
-        return view ('tarjetaGuiania');
+        return view ('tarjetaGuainia');
     }
     public function Guajira (){
         return view ('tarjetaGuajira');
