@@ -33,113 +33,39 @@
         <div class="contenido">
 
             <div id="formulario">
-                <form>
-                    <h2 id="form1">¿De que Departamento es tú historia?</h2>
-                    <select id="form">
-                        <option disabled selected="">Seleccione el departamento</option>
-                        <option>Amazonas</option>
-                        <option>Antioquia</option>
-                        <option>Arauca</option>
-                        <option>Atlántico</option>
-                        <option>Bogotá</option>
-                        <option>Bolívar</option>
-                        <option>Boyacá</option>
-                        <option>Caldas</option>
-                        <option>Caquetá</option>
-                        <option>Casanare</option>
-                        <option>Cauca</option>
-                        <option>Cesar</option>
-                        <option>Chocó</option>
-                        <option>Córdoba</option>
-                        <option>Cundinamarca</option>
-                        <option>Guainía</option>
-                        <option>Guaviare</option>
-                        <option>Huila</option>
-                        <option>La Guajira</option>
-                        <option>Magdalena</option>
-                        <option>Meta</option>
-                        <option>Nariño</option>
-                        <option>Norte de Santander</option>
-                        <option>Putumayo</option>
-                        <option>Quindío</option>
-                        <option>Risaralda</option>
-                        <option>Santander</option>
-                        <option>Sucre</option>
-                        <option>Tolima</option>
-                        <option>Valle del Cauca</option>
-                        <option>Vaupés</option>
-                        <option>Vichada</option>
+                <form action="<?php echo e(route('guardarHistoria')); ?>" method="POST" enctype="multipart/form-data">
+                    <?php echo csrf_field(); ?>
+                    <label for="opciones">Seleciona el departamento:</label>
+                    <select name="opciones" id="opciones">
+                        <option value="opcion1">Amazonas</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
                     </select>
-                
-                
-                    </form>
-                    <form>
-                        <h2 id="form1">¿De que Ciudad es tú historia?</h2>
-                        <select id="form">
-                            <option disabled selected="">Seleccione la ciudad</option>
-                            <option>Amazonas</option>
-                            <option>Antioquia</option>
-                            <option>Arauca</option>
-                            <option>Atlántico</option>
-                            <option>Bogotá</option>
-                            <option>Bolívar</option>
-                            <option>Boyacá</option>
-                            <option>Caldas</option>
-                            <option>Caquetá</option>
-                            <option>Casanare</option>
-                            <option>Cauca</option>
-                            <option>Cesar</option>
-                            <option>Chocó</option>
-                            <option>Córdoba</option>
-                            <option>Cundinamarca</option>
-                            <option>Guainía</option>
-                            <option>Guaviare</option>
-                            <option>Huila</option>
-                            <option>La Guajira</option>
-                            <option>Magdalena</option>
-                            <option>Meta</option>
-                            <option>Nariño</option>
-                            <option>Norte de Santander</option>
-                            <option>Putumayo</option>
-                            <option>Quindío</option>
-                            <option>Risaralda</option>
-                            <option>Santander</option>
-                            <option>Sucre</option>
-                            <option>Tolima</option>
-                            <option>Valle del Cauca</option>
-                            <option>Vaupés</option>
-                            <option>Vichada</option>
-                        </select>
-                    
-                    
-                        </form>
-                        <form>
-                            <h2 id="form1">¿De que Género es tú historia?</h2>
-                            <select id="form">
-                                <option disabled selected="">Seleccione el Género</option>
-                                <option>Gore</option>
-                                <option>Horror</option>
-                                <option>Thriller</option>
-                                <option>Terror psicologico</option>
-                                <option>Creepypastas</option>
-                                <option>Invocaciones</option>
-                                <option>Leyendas</option>
-                                <option>Mitos</option>
-                                <option>Historias encantadas</option>
-                               
-                            </select>
-                        
-                        
-                            </form>
-                            <input type="file" name="archivo" id="archivo" style="display: none;">
-                            <label for="archivo" class="boton-carga">Cargar Archivo</label>
+                    <label for="opciones2">De que ciudad es tu historia:</label>
+                    <select name="opciones2" id="opciones2">
+                        <option value="opcion1">Opción 1</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
+                    </select>
+                    <label for="opciones3">De que genero es tu historia:</label>
+                    <select name="opciones3" id="opciones3">
+                        <option value="opcion1">Opción 1</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
+                    </select>
             </div>
                 <div class="cuadro-historia">
                     
                     <h1>Escribe tu historia</h1>
 
-                    <textarea rows="56" cols="110"></textarea>
+                
+                    <textarea name="texto" id="texto" rows="60" cols="100"></textarea>
                 </div> 
+                
+                <label for="imagen">Imagen:</label>
+                <input type="file" name="imagen" id="imagen">
+
+                <input type="submit" value="Guardar">
         </div>
            
     </div>

@@ -114,5 +114,9 @@ Route::get('tarjetaQuindio', [DepartamentUserController::class, 'Quindio'])->nam
 Route::get('tarjetaTolima', [DepartamentUserController::class, 'Tolima'])->name ('laslechonas');
 
 
+///// Creacion de Hitorias/////////////////////////////////////////////////////////////////////////////////
 
 
+Route::post('/guardar-historia', [CreateHistoryController::class,'guardarHistoria'])->name('guardarHistoria');
+
+Route::post('/guardar-datos',[IndexController::class,'guardarDatos'])->name('guardarDatos');

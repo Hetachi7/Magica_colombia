@@ -32,15 +32,23 @@
     <img src="<?php echo e(asset('local_storage/img/fonhis2.png')); ?>"  alt="">
 </div>
 
-<div class="texto">
+<div class="form">
 
- <a href="#"><img src="<?php echo e(asset('local_storage/img/facebook.png')); ?>"  ></a>
-
- <a href="#"> <img src="<?php echo e(asset('local_storage/img/instagram.png')); ?>" ></a>
-
- <a href="#"><img src="<?php echo e(asset('local_storage/img/gmail.png')); ?>" ></a>
-
-
+    <form action="<?php echo e(route('guardarDatos')); ?>" method="POST" enctype="multipart/form-data">
+        <?php echo csrf_field(); ?>
+        <label for="opciones">Opciones:</label>
+        <select name="opciones" id="opciones">
+          
+        </select>
+        <br>
+        <label for="texto">Texto:</label>
+        <textarea name="texto" id="texto" rows="60" cols="100"></textarea>
+        <br>
+        <label for="imagen">Imagen:</label>
+        <input type="file" name="imagen" id="imagen">
+        <br>
+        <input type="submit" value="Guardar">
+      </form>
 
 
 
