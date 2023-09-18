@@ -1,15 +1,15 @@
-body{
+body {
     font-family: sans-serif;
     margin: 0;
     background-color: black;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     height: 100px;
@@ -20,27 +20,32 @@ header{
     margin-left: 100px;
 
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
 }
-.logo img{
+
+.logo img {
     height: 100px;
     margin-right: 10px;
 }
-.logo h2{
+
+.logo h2 {
     font-size: 25px;
 }
-nav a{
+
+nav a {
     font-weight: 600px;
     padding-right: 20px;
     font-size: 20px;
 }
-nav a:hover{
+
+nav a:hover {
     color: rgb(139, 0, 0);
 }
 
-.texto{
+.texto {
     width: 1000px;
     align-items: center;
     margin-left: auto;
@@ -49,22 +54,25 @@ nav a:hover{
     color: white;
     padding: 50px;
 }
-.texto img{
+
+.texto img {
     width: 600px;
     height: 200px;
 }
-.texto a:hover{
+
+.texto a:hover {
     transform: scaleX(4.5);
 }
 
 
-.fonhis1 img{
+.fonhis1 img {
     position: absolute;
     float: left;
     width: 300px;
     height: 4000;
 }
-.fonhis2 img{
+
+.fonhis2 img {
     position: relative;
     float: right;
     width: 300px;
@@ -72,3 +80,59 @@ nav a:hover{
 }
 
 
+/* CONTACTO FORMULARIO CON ESTILOS */
+
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #751313;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #790c0c;
+    border-radius: 5px;
+}
+
+
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+
+.form input[type="submit"] {
+    background-color: #c71f2d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.form input[type="submit"]:hover {
+    background-color: #771010;
+}

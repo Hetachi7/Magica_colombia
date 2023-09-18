@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2ea186446081bec2e0d59e6a60c129c3
+class ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -4749,6 +4749,7 @@ class ComposerStaticInit2ea186446081bec2e0d59e6a60c129c3
         'Psy\\CodeCleaner\\ValidFunctionNamePass' => __DIR__ . '/..' . '/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php',
         'Psy\\Command\\BufferCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/BufferCommand.php',
         'Psy\\Command\\ClearCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/ClearCommand.php',
+        'Psy\\Command\\CodeArgumentParser' => __DIR__ . '/..' . '/psy/psysh/src/Command/CodeArgumentParser.php',
         'Psy\\Command\\Command' => __DIR__ . '/..' . '/psy/psysh/src/Command/Command.php',
         'Psy\\Command\\DocCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/DocCommand.php',
         'Psy\\Command\\DumpCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/DumpCommand.php',
@@ -6454,9 +6455,9 @@ class ComposerStaticInit2ea186446081bec2e0d59e6a60c129c3
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2ea186446081bec2e0d59e6a60c129c3::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2ea186446081bec2e0d59e6a60c129c3::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit2ea186446081bec2e0d59e6a60c129c3::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965::$classMap;
 
         }, null, ClassLoader::class);
     }

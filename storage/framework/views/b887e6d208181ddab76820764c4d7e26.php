@@ -12,7 +12,7 @@
     <div class="formulario">
         <img class="avatar" src="<?php echo e(asset('local_storage/img/logo.png')); ?>"  alt="Logo de empresa">
         <h1>Registrate</h1>
-        <form method= "post" action="/<?php echo e(route('validar')); ?>">
+        <form method= "post" action="">
                <?php echo csrf_field(); ?>
                 <label>Nombres</label>
                 <input type="text" name="nombres" placeholder="Ingrese sus nombres">

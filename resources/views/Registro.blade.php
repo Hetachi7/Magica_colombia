@@ -12,7 +12,7 @@
     <div class="formulario">
         <img class="avatar" src="{{ asset('local_storage/img/logo.png') }}"  alt="Logo de empresa">
         <h1>Registrate</h1>
-        <form method= "post" action="/{{route('validar')}}">
+        <form method= "post" action="">
                @csrf
                 <label>Nombres</label>
                 <input type="text" name="nombres" placeholder="Ingrese sus nombres">
