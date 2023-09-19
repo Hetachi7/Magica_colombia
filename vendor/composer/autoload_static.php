@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965
+class ComposerStaticInit9e900a8af31d60043bcc57dbf9f9ebc7
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -2778,6 +2778,7 @@ class ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965
         'Laravel\\Prompts\\SelectPrompt' => __DIR__ . '/..' . '/laravel/prompts/src/SelectPrompt.php',
         'Laravel\\Prompts\\Spinner' => __DIR__ . '/..' . '/laravel/prompts/src/Spinner.php',
         'Laravel\\Prompts\\SuggestPrompt' => __DIR__ . '/..' . '/laravel/prompts/src/SuggestPrompt.php',
+        'Laravel\\Prompts\\Table' => __DIR__ . '/..' . '/laravel/prompts/src/Table.php',
         'Laravel\\Prompts\\Terminal' => __DIR__ . '/..' . '/laravel/prompts/src/Terminal.php',
         'Laravel\\Prompts\\TextPrompt' => __DIR__ . '/..' . '/laravel/prompts/src/TextPrompt.php',
         'Laravel\\Prompts\\Themes\\Contracts\\Scrolling' => __DIR__ . '/..' . '/laravel/prompts/src/Themes/Contracts/Scrolling.php',
@@ -2792,6 +2793,7 @@ class ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965
         'Laravel\\Prompts\\Themes\\Default\\SelectPromptRenderer' => __DIR__ . '/..' . '/laravel/prompts/src/Themes/Default/SelectPromptRenderer.php',
         'Laravel\\Prompts\\Themes\\Default\\SpinnerRenderer' => __DIR__ . '/..' . '/laravel/prompts/src/Themes/Default/SpinnerRenderer.php',
         'Laravel\\Prompts\\Themes\\Default\\SuggestPromptRenderer' => __DIR__ . '/..' . '/laravel/prompts/src/Themes/Default/SuggestPromptRenderer.php',
+        'Laravel\\Prompts\\Themes\\Default\\TableRenderer' => __DIR__ . '/..' . '/laravel/prompts/src/Themes/Default/TableRenderer.php',
         'Laravel\\Prompts\\Themes\\Default\\TextPromptRenderer' => __DIR__ . '/..' . '/laravel/prompts/src/Themes/Default/TextPromptRenderer.php',
         'Laravel\\Sail\\Console\\AddCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/AddCommand.php',
         'Laravel\\Sail\\Console\\Concerns\\InteractsWithDockerComposeServices' => __DIR__ . '/..' . '/laravel/sail/src/Console/Concerns/InteractsWithDockerComposeServices.php',
@@ -6455,9 +6457,9 @@ class ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitca4185ebf5a5f34aeb5b09bd31d8b965::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9e900a8af31d60043bcc57dbf9f9ebc7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9e900a8af31d60043bcc57dbf9f9ebc7::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit9e900a8af31d60043bcc57dbf9f9ebc7::$classMap;
 
         }, null, ClassLoader::class);
     }
