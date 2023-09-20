@@ -128,4 +128,9 @@ class DepartamentUserController extends Controller
   {
     return view('../Departamentos/tarjetaVaupes');
   }
+
+  public function Nariño()
+  {
+    return view('../Departamentos/tarjetaNariño');
+  }
 }
