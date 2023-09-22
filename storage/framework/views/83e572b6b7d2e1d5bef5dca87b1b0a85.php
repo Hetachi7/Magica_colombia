@@ -2,54 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('css_index/Econtacto.css')); ?>">
-
 </head>
 <body>
+    <header>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-black navbar-black">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" style="font-weight: 600px; padding-right: 20px; font-size: 20px;">
+                        <a class="navbar-brand" href="#">
+                            <img src="<?php echo e(asset('local_storage/img/logo.png')); ?>" alt="Logo" width="100px" height="100px" class="d-inline-block align-text-top">
+                            <a class="nav-link" href="<?php echo e(route('inicio')); ?>" style="color: aliceblue;">MAGICA COLOMBIA</a>
+                            </a>
+                          </a>
+                      <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="<?php echo e(route('subirhistoria')); ?>">Sube tu Historia</a>
+                      <a class="nav-link" href="<?php echo e(route('info')); ?>" style="color: aliceblue;">Quienes somos</a>
+                      <a class="nav-link " aria-disabled="page" href="<?php echo e(route('registro')); ?>" style="color: aliceblue;">Registrate</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>   
+              
+        </div>
+    <div class="container">
+        <div class="row" style="text-align: center;">  
+            <form  action="<?php echo e(route('guardarDatos')); ?>" method="POST" enctype="multipart/form-data">
+    
+            <label  style="color: aliceblue ; font-size: 30px; " 
+            for="opciones"  >Seleciona el error</label>
+            <br>
+            <select name="opciones" id="opciones" style="   width: 400px;
+            height: 40px;
+            font-size: 20px;
+            text-align: center;
+            background: rgb(139, 0, 0);
+            border: 2px solid rgb(139, 0, 0);
+            border-radius: 5px;
+            color: white; ">
+                <option value="opcion1">Bug</option>
+                <option value="opcion1">Errores en historias</option>
+                <option value="opcion1">Errores en imagenes</option>
+                <option value="opcion1">Errores en navegabilidad</option>
 
-<header>
-<a href="<?php echo e(route('inicio')); ?>" class="logo">
-    <img src="<?php echo e(asset('local_storage/img/bienvenido.png')); ?>"  alt="">
-    <h2>La Mágica Colombia</h2>
-</a>
+            </select>
+           
+        </div>
+        <div class="row" style="text-align: center;">
+            
+            <h1 style="color: aliceblue;">Escribe sobre el error</h1>
+            <br>
 
-
-<nav>
-    <a href="<?php echo e(route('subirhistoria')); ?>" class="link">¿Quieres subir tú historia?</a>
-    <a href="<?php echo e(route('info')); ?>" class="link">¿Quienes Somos?</a>
-    <a href="<?php echo e(route('contac')); ?>" class="link">Contacto</a>
-    <a href="<?php echo e(route('registro')); ?>" class="link">Registráte</a>
-</nav>
-</header>
-
-<div class="fonhis1">
-    <img src="<?php echo e(asset('local_storage/img/fonhis1.png')); ?>"  alt="">
-</div>
-<div class="fonhis2">
-    <img src="<?php echo e(asset('local_storage/img/fonhis2.png')); ?>"  alt="">
-</div>
-
-<div class="form">
-
-    <form action="<?php echo e(route('guardarDatos')); ?>" method="POST" enctype="multipart/form-data">
-        <?php echo csrf_field(); ?>
-        <label for="opciones">Opciones:</label>
-        <select name="opciones" id="opciones">
-          
-        </select>
+            <textarea name="texto" id="texto" rows="10" cols="10"; style="background:rgb(139, 0, 0);color: aliceblue;"></textarea>
+        </div>
         <br>
-        <label for="texto">Texto:</label>
-        <textarea name="texto" id="texto" rows="60" cols="100"></textarea>
-        <br>
-        <label for="imagen">Imagen:</label>
-        <input type="file" name="imagen" id="imagen">
-        <br>
-        <input type="submit" value="Guardar">
-      </form>
+        <div class="row" style="text-align: center;">
 
-
-
-</div><?php /**PATH C:\xampp\htdocs\Magica_colombia\resources\views/Contacto.blade.php ENDPATH**/ ?>
+                <label style=" width: 200px;
+                height: 40px;
+                font-size: 20px;
+                text-align: center;
+                background: rgb(139, 0, 0);
+                border: 2px solid rgb(139, 0, 0);
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                text-align: center;
+                display: inline-block;
+                border: none;
+                color: aliceblue;
+                border: 2px solid rgb(139, 0, 0);" for="imagen">imagen</label>
+                <input type="file" name="imagen" id="imagen" >
+    
+                <input style=" width: 200px;
+                height: 40px;
+                font-size: 20px;
+                text-align: center;
+                background: rgb(139, 0, 0);
+                border: 2px solid rgb(139, 0, 0);
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                text-align: center;
+                display: inline-block;
+                border: none;
+                color: aliceblue;
+                border: 2px solid rgb(139, 0, 0);" type="submit" value="Guardar">
+            </div>
+        
+        
+    </div>
+       
+</body>
+</html><?php /**PATH C:\xampp\htdocs\Magica_colombia\resources\views/Contacto.blade.php ENDPATH**/ ?>

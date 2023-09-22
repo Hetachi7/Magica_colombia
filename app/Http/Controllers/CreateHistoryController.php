@@ -2,15 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Imagen_Hsitoria;
 use Illuminate\Http\Request;
 
 class CreateHistoryController extends Controller
 {
     public function Formulario(){
-        return view('formulario');
+        return view('formularioHistoria');
     }
     public function CreateHistory(){
         return view('subirhistoria');
+    }
+    public function preview(){
+        return view('preview');
     }
     
     public function guardarHistoria(Request $request) {
@@ -27,4 +31,18 @@ class CreateHistoryController extends Controller
 
         return "Datos guardados exitosamente"; // Puedes redirigir o mostrar un mensaje de éxito
     }
+    public function pre(){
+        $ultimoRegistro = Imagen_Hsitoria::latest()->first();
+    
+        if ($ultimoRegistro) {
+            $imagen = $ultimoRegistro->imagen;
+            $texto = $ultimoRegistro->texto;
+        } else {
+            $imagen = '';
+            $texto = '';
+        }
+    
+        return view('preview', ['imagen' => $imagen, 'texto' => $texto]);
+    }
+    
 }    

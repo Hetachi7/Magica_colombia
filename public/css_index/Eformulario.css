@@ -1,150 +1,17 @@
-
 body{
-    font-family: sans-serif;
-    margin: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-header{
-
- display: flex;
- justify-content: space-between;
- height: 100px;
- background-color: rgb(0, 0, 0);
- align-items: center;
- padding: 10px;
- margin-right: 100px;
- margin-left: 100px;
- 
-
-}
-.logo{
-    display: flex;
-    align-items: center;
-}
-.logo img{
-    height: 100px;
-    margin-right: 10px;
-}
-.logo h2{
-    font-size: 25px;
-}
-nav a{
-    font-weight: 600px;
-    padding-right: 20px;
-    font-size: 20px;
-}
-nav a:hover{
-    color: rgb(139, 0, 0);
-}
-
-#opciones{
-
-    color :aliceblue;
-}
-
-
-.subirh{
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-}
-.subirh img{
-    width: 700px;
-}
-.contenedor{
-    width: 1800px;
+.bg-image {
+    background-image: url('../local_storage/img/hoja.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
     height: 1000px;
-}
-.contenido{
+    width: 800px; 
+  }
 
-    height: 100%;
-    width: 100%;
-    background: black;
-    
-}
-#formulario{
-    margin-top: 20%;
-    height: 100%;
-    width: 50%;  
-    float: left;
-    margin-bottom: 50px;
-    align-items: center;
-    text-align: center;
-}
-#form{
-    width: 400px;
-    height: 40px;
-    font-size: 20px;
-    text-align: center;
-    background: rgb(139, 0, 0);
-    border: 2px solid rgb(139, 0, 0);
-    border-radius: 5px;
-    color: white;
- 
-   
-}
-#form:hover{
-    background: rgb(255, 255, 255);
-    color: rgb(139, 0, 0);
-}
 
-.formulario input{
-    margin: 20px;
-    width: 200px;
-    height: 40px;
-    font-size: 18px;
-    border-radius: 10px;
-    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.453);
-    background: rgb(139, 0, 0);
-    color: white;
-}
-.formulario input:hover{
-    box-shadow: 0px 2px 20px rgba(255, 255, 255, 0.4);
-    transform: translateY(-3%);
-    background: white;
-    color: rgb(139, 0, 0);
-    border: 2px solid rgb(139, 0, 0);
 
-}
-.cuadro-historia{
 
-    margin-top: 5%;
-    text-align: center;
-    height: 100%;
-    width: 50%; 
-    float: right ;
-    background-image: url(../local_storage/img/hoja.png);
-    background-repeat: no-repeat;
-    background-size: 1000px 1000px;
-}
-textarea{
-    background: transparent;
-    align-items: center;
-}
-.imagen {
 
-    
-}
-.boton-carga {
-    padding: 10px 20px;
-    margin-top: 35px;
-    background-color: rgb(139, 0, 0);
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    text-align: center;
-    display: inline-block;
-    border: none;
-    border: 2px solid rgb(139, 0, 0);
 
-}
 
-.boton-carga:hover {
-    background-color: rgb(255, 255, 255);
-}

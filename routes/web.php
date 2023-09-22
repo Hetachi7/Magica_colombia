@@ -26,6 +26,8 @@ Route::get('quienesomos', [IndexController::class, 'info'])->name('info');
 
 Route::get('perfil', [IndexController::class, 'perfil'])->name('perfil');
 
+Route::get('preview', [CreateHistoryController::class, 'Preview'])->name('Pre');
+
 Route::get('subir_historia', [CreateHistoryController::class, 'CreateHistory'])->name('subirhistoria');
 
 route::get('formulario', [CreateHistoryController::class, 'formulario'])->name('form');
