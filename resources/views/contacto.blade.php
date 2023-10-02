@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css_index/Econtacto.css')}}">
 </head>
-<body>
+<body style="background-image:url({{asset('local_storage/img/hombre-caminando-bosque-brumoso.png')}})">
     <header>
         <div class="row">
             <nav class="navbar navbar-expand-lg bg-black navbar-black">
@@ -19,12 +19,12 @@
                     <div class="navbar-nav" style="font-weight: 600px; padding-right: 20px; font-size: 20px;">
                         <a class="navbar-brand" href="#">
                             <img src="{{asset('local_storage/img/logo.png')}}" alt="Logo" width="100px" height="100px" class="d-inline-block align-text-top">
-                            <a class="nav-link" href="{{route('inicio')}}" style="color: aliceblue;">MAGICA COLOMBIA</a>
+                            <a class="nav-link" href="{{route('inicio')}}" style="color: aliceblue; margin-right: 60rem;">MAGICA COLOMBIA</a>
                             </a>
                           </a>
-                      <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="{{route('subirhistoria')}}">Sube tu Historia</a>
-                      <a class="nav-link" href="{{route('info')}}" style="color: aliceblue;">Quienes somos</a>
-                      <a class="nav-link " aria-disabled="page" href="{{route('registro')}}" style="color: aliceblue;">Registrate</a>
+                      <a class="nav-link active" style="color: aliceblue;margin-right:1rem" aria-current="page" href="{{route('subirhistoria')}}">Sube tu Historia</a>
+                      <a class="nav-link" href="{{route('info')}}" style="color: aliceblue ;margin-right:1rem;">Quienes somos</a>
+                      <a class="nav-link " aria-disabled="page" href="{{route('registro')}}" style="color: aliceblue; margin-right:1rem">Registrate</a>
                     </div>
                   </div>
                 </div>

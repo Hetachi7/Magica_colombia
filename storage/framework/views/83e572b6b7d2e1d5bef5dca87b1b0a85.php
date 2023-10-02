@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('css_index/Econtacto.css')); ?>">
 </head>
-<body>
+<body style="background-image:url(<?php echo e(asset('local_storage/img/hombre-caminando-bosque-brumoso.png')); ?>)">
     <header>
         <div class="row">
             <nav class="navbar navbar-expand-lg bg-black navbar-black">
@@ -19,12 +19,12 @@
                     <div class="navbar-nav" style="font-weight: 600px; padding-right: 20px; font-size: 20px;">
                         <a class="navbar-brand" href="#">
                             <img src="<?php echo e(asset('local_storage/img/logo.png')); ?>" alt="Logo" width="100px" height="100px" class="d-inline-block align-text-top">
-                            <a class="nav-link" href="<?php echo e(route('inicio')); ?>" style="color: aliceblue;">MAGICA COLOMBIA</a>
+                            <a class="nav-link" href="<?php echo e(route('inicio')); ?>" style="color: aliceblue; margin-right: 60rem;">MAGICA COLOMBIA</a>
                             </a>
                           </a>
-                      <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="<?php echo e(route('subirhistoria')); ?>">Sube tu Historia</a>
-                      <a class="nav-link" href="<?php echo e(route('info')); ?>" style="color: aliceblue;">Quienes somos</a>
-                      <a class="nav-link " aria-disabled="page" href="<?php echo e(route('registro')); ?>" style="color: aliceblue;">Registrate</a>
+                      <a class="nav-link active" style="color: aliceblue;margin-right:1rem" aria-current="page" href="<?php echo e(route('subirhistoria')); ?>">Sube tu Historia</a>
+                      <a class="nav-link" href="<?php echo e(route('info')); ?>" style="color: aliceblue ;margin-right:1rem;">Quienes somos</a>
+                      <a class="nav-link " aria-disabled="page" href="<?php echo e(route('registro')); ?>" style="color: aliceblue; margin-right:1rem">Registrate</a>
                     </div>
                   </div>
                 </div>
