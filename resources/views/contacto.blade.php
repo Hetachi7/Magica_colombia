@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css_index/Econtacto.css')}}">
 </head>
-<body style="background-image:url({{asset('local_storage/img/hombre-caminando-bosque-brumoso.png')}})">
+<body>
     <header>
         <div class="row">
             <nav class="navbar navbar-expand-lg bg-black navbar-black">

@@ -104,8 +104,8 @@
             <div class="col-sm-12 col-md-6 col-lg-6" style="text-align: center;">
                 <h1 style="color: aliceblue;">Escribe tu historia</h1>
                 <br>
-                <div class="jumbotron bg-image" style="background-image: url(<?php echo e(asset('local_storage/img/hoja.png')); ?>)">
-                    <div class="opacity-0"  >
+                <div class="jumbotron bg-image" style="background-image: url(<?php echo e(asset('local_storage/img/hoja.png')); ?>) ">
+                    <div class="opacity-25" style="height: 5rem"  >
                         <br>
                         <br>
                         <br>

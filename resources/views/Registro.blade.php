@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="{{asset('css_index/Eregistrarse.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('css_index/Eregistrarse.css')}}"> --}}
+    <link rel="stylesheet" href="{{asset('css_index/Erecuperar.css')}}">
+
 </head>
 <body>
 
