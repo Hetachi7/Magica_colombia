@@ -32,36 +32,37 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/guitana.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>Historia de la Guitana</h3>
+            <p>
+                as dignidades del honor, en particular el heroísmo, la valentía y la proeza, se han relatado para perpetuar y engrandecer en el tiempo las gestas de los vencedores. Del vencedor, que encarna al héroe, se dice que estaba tocado por la diosa Fortuna.</p>
+            <a href="{{route('Guitana')}}">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/sombreron.jpg') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>Historia del Sombreron</h3>
+            <p>Leyenda colombiana y de Centroamérica, sin embargo, aquí te contaremos lo que ha pasado en nuestro país con este legendario personaje. Cuenta la historia que hubo un personaje que vivió en diferentes pueblos hace mucho tiempo. Era un hombre viejo que vestía.</p>
+            <a href="{{route('Sombre')}}">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/taitapuro.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>Historia del Taitapuro</h3>
+            <p>Son personajes exclusivos y auténticos de la mitología huilense. Tiene sus orígenes en la raza pijao, donde se les consideraba el dios del fuego y de las cosechas. En las grandes festividades de San Juan, San Pedro y en el Festival del Bambuco se representa.</p>
+            <a href="{{route('Taita')}}">Leer más</a>
 
         </div>
 
@@ -80,57 +81,6 @@
     </div>
 
 </div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 4.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
 
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 5.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 6.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 7.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
-
-</div>
 
 

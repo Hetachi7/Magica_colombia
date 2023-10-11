@@ -32,104 +32,52 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/doncella.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3> El Encanto de la Doncella</h3>
+            <p>Como “El Encanto” fue bautizado el puente construido sobre el río Hacha, para permitir el paso de los habitantes de la capital del Caquetá hacia el resto de la población ubicada al sur del departamento. Este paraje de encanto sin igual ofrecía un aire de tranquilidad y frescura. </p>
+            <a href="{{route('Doncella')}}">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/mula.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3> La Mula del Diablo</h3>
+            <p>Suele ser considerada como una hermosa y atractiva mujer de edad primaveral, seductora y  comprometedora en sus actos al punto que llego a seducir a un sacerdote. La mujer que enamora a un sacerdote recibe el apodo de “Mula del Diablo”. Este remoquete aún perdura en la mente.</p>
+            <a href="{{route('Mula')}}">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/pollo.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>El Pollo Malo</h3>
+            <p>Cuenta la leyenda que el pollo malo o pollo maligno es un espanto que suele aparecerse en los campos y caminos del Huila, y que su aparición es un presagio de muerte y mala suerte.Según la leyenda durante las noches en las que los hombres se suelen reunir con sus amigos. </p>
+            <a href="{{route('Pollo')}}">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 3.jpg') }}" >
+            <img src="{{ asset('local_storage/img/tunjo.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>El Tunjo de Oro</h3>
+            <p>Cuenta la leyenda, que el Tunjo es representado como un muñeco de oro. Algunos dicen que son pequeños ídolos simbólicos o divinos de los "Pijaos"; otros dicen que fueron dioses o solo ofrendas para sus dioses o sus caciques El Tunjo aparece por las noches en forma de un Bebé. </p>
+            <a href="{{route('Tunjo')}}">Leer más</a>
 
         </div>
 
     </div>
-
-</div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 4.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 5.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 6.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 7.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
 
 </div>
 

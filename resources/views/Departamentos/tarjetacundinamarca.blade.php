@@ -32,36 +32,36 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/casadavid.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>La Casa de Don David</h3>
+            <p>Ubicada en el barrio Cabecera del Llano en la carrera 39 con calle 44, es conocida porque dicen que allí se realizó un pacto con el diablo para que se pudiera construir la casona en un peñasco que ofrecía riesgos.Otros más osados cuentan que el pacto se hizo .</p>
+            <a href="{{route('david')}}">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/3BRIJAS.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>Historia de las Tres Brujas</h3>
+            <p>Se cuenta que en la edad de las brujas, en las montañas de los Ibores, una madre noble tuvo tres hijas, Tina, Tina y Mada. La ira de una criada [contra la madre, por darle tanto trabajo con las tres hijas], que era bruja, hizo que las enseñara el arte de la brujería.</p>
+            <a href="{{route('3brujas')}}">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/damav.jpg') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>Historia de la Dama Verde</h3>
+            <p>Cuenta la leyenda que la Dama Verde, es un espanto que suele aparecerse en callejuelas y lugares ruinosos (ruinas) de los departamentos de Antioquia y Caldas en Colombia.La leyenda relata que la Dama Verde es un espectro que deambula por las calles solitarias.</p>
+            <a href="{{route('Dama')}}">Leer más</a>
 
         </div>
 
@@ -71,66 +71,15 @@
             <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 3.jpg') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
+            <h3>La </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <a href="{{route('david')}}">Leer más</a>
 
         </div>
 
     </div>
 
-</div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 4.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+<
 
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 5.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 6.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 7.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
-
-</div>
 
 

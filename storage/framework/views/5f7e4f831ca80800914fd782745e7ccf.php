@@ -32,106 +32,54 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/virgen.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/candileja.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>La Candileja</h3>
+            <p>
+                Cuentan que la Candileja es una bola ardiente de tres antorchas, con brazos como tentáculos rojos candela, que produce ruido de jarrones rotos. Persigue a borrachos, infieles y a padres de familia irresponsables y temerosos.</p>
+            <a href="<?php echo e(route('candileja')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 1.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/Elsilbon.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>El Silbon </h3>
+            <p>Si escuchas cerca los silbidos, el Silbón está lejos y no hay peligro; si los escuchas lejos, no tienes escapatoria, el Silbón está cerca y corres peligro.En los Llanos Orientales, hace muchos años, vivía un joven al que </p>
+            <a href="<?php echo e(route('Silbon')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/juanmachete.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>Juan Machete</h3>
+            <p>Considerable como una de las leyendas más conocidas del llano. Cuenta la vida del hombre que quería ser el más poderoso de la región, su nombre era Juan Francisco Ortiz, amo y señor de las tierras de la Macarena. </p>
+            <a href="<?php echo e(route('juan')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 3.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/Rezo.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>El Rezo Del Pescado </h3>
+            <p>El rezo del pescado es un ritual generalizado en los grupos llaneros, el cual se desarrolla con ocasión del comienzo del destete de los bebés antes de su primer año y con ocasión de la primera menstruación femenina. </p>
+            <a href="<?php echo e(route('Rezo')); ?>">Leer más</a>
 
         </div>
 
     </div>
 
-</div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 4.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 5.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 6.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 7.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
-
-</div>
 
 
 <?php /**PATH C:\xampp\htdocs\Magica_colombia\resources\views////Departamentos/tarjetaMeta.blade.php ENDPATH**/ ?>

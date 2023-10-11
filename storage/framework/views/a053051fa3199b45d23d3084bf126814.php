@@ -32,104 +32,54 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/virgen.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/Boladefuego.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>Bola De Fuego</h3>
+            <p>
+                En los Llanos Orientales de Colombia, desde hace muchas décadas, surgió una leyenda que muchos han calificado como cierta, pues diversas personas la han presenciado. Se trata de la “bola de fuego” que aparece en las noches, llevándose a quien atrape. </p>
+            <a href="<?php echo e(route('Bola')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 1.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/felipe.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>La Chanza de Felipe</h3>
+            <p>En un municipio que hace parte del actual departamento de Casanare y que limita en su totalidad con Arauca, según me decía Saúl, el Niño mentiroso, vivió un personaje descendiente de una de las familias más respetables que han existido en este territorio</p>
+            <a href="<?php echo e(route('Felipe')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/rompellano.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>El Rompellanos</h3>
+            <p>Muy arraigada en Arauca (capital), es la devoción a Eduardo Fernández, más conocido como “Rompellanos”. Natural de Casanare, posiblemente de la población de Hato Corozal, hombre alto, delgado, cabello castaño y lacio, ojos claros y brillantes.  </p>
+            <a href="<?php echo e(route('Rompe')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 3.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/Supersticiones.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>Las Supersticiones</h3>
+            <p>Se cree que la ubre de las vacas se daña cuando se deja derramar la leche en las topias calientes.Quienes tienen negocios, especialmente tiendas y almacenes, además de protegerlos con una mata de sábila que se cuelga detrás de la puerta principal.
+                </p>
+            <a href="<?php echo e(route('Super')); ?>">Leer más</a>
 
         </div>
 
     </div>
-
-</div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 4.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 5.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 6.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 7.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
 
 </div>
 

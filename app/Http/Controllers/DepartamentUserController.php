@@ -113,7 +113,7 @@ class DepartamentUserController extends Controller
   }
   public function Putumayo()
   {
-    return view('../Departamentos/tarjetaPutumayo');
+    return view('Departamentos.tarjetaPutumayo');
   }
   public function Sucre()
   {

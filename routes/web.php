@@ -128,3 +128,53 @@ Route::post('/guardar-datos', [IndexController::class, 'guardarDatos'])->name('g
 
 Route::get('/registro', [LoginUserController::class, 'crear'])->name('registro.crear');
 Route::post('/registro', [LoginUserController::class, 'guardar'])->name('registro.guardar');
+////////////////////// Historias/////////////////////////////////
+
+////////////////////////////////////////CAQUETA//////////////////////////////////////////////////////////////////
+Route::get('HistoriaCaq1', [HistoryController::class, 'HistoriaCaq1'])->name('Doncella');
+Route::get('HistoriaCaq2', [HistoryController::class, 'HistoriaCaq2'])->name('Mula');
+Route::get('HistoriaCaq3', [HistoryController::class, 'HistoriaCaq3'])->name('Pollo');
+Route::get('HistoriaCaq4', [HistoryController::class, 'HistoriaCaq4'])->name('Tunjo');
+
+////////////////////////////////////////CASANARE/////////////////////////////////////////////////////////////////
+Route::get('HistoriaCas1', [HistoryController::class, 'HistoriaCas1'])->name('Bola');
+Route::get('HistoriaCasa1', [HistoryController::class, 'HistoriaCasa1'])->name('Bola2');
+Route::get('HistoriaCas2', [HistoryController::class, 'HistoriaCas2'])->name('Felipe');
+Route::get('HistoriaCasa2', [HistoryController::class, 'HistoriaCasa2'])->name('Felip2');
+Route::get('HistoriaCas3', [HistoryController::class, 'HistoriaCas3'])->name('Rompe');
+Route::get('HistoriaCasa3', [HistoryController::class, 'HistoriaCasa3'])->name('Rompe2');
+Route::get('HistoriaCas4', [HistoryController::class, 'HistoriaCas4'])->name('Super');
+Route::get('HistoriaCasa4', [HistoryController::class, 'HistoriaCasa4'])->name('Super2');
+
+////////////////////////////////////////CUNDINAMARCA/////////////////////////////////////////////////////////////
+
+Route::get('HistoriaC1', [HistoryController::class, 'HistoriaC1'])->name('3brujas');
+Route::get('HistoriaCu1', [HistoryController::class, 'HistoriaCu1'])->name('3brujas2');
+Route::get('HistoriaC2', [HistoryController::class, 'HistoriaC2'])->name('david');
+Route::get('HistoriaCu2', [HistoryController::class, 'HistoriacU2'])->name('david2');
+Route::get('HistoriaC3', [HistoryController::class, 'HistoriaC3'])->name('Dama');
+Route::get('HistoriaCu3', [HistoryController::class, 'HistoriaCu3'])->name('Dama2');
+
+////////////////////////////////////////HUILA////////////////////////////////////////////////////////////////////
+
+Route::get('HistoriaH1', [HistoryController::class, 'HistoriaH1'])->name('Guitana');
+Route::get('HistoriaHu1', [HistoryController::class, 'HistoriaHu1'])->name('Guitana2');
+Route::get('HistoriaH2', [HistoryController::class, 'HistoriaH2'])->name('Sombre');
+Route::get('HistoriaHu2', [HistoryController::class, 'HistoriaHu2'])->name('Sombre2');
+Route::get('HistoriaH3', [HistoryController::class, 'HistoriaH3'])->name('Taita');
+
+////////////////////////////////////////META/////////////////////////////////////////////////////////////////////
+Route::get('HistoriaM1', [HistoryController::class, 'HistoriaM1'])->name('candileja');
+Route::get('HistoriaM2', [HistoryController::class, 'HistoriaM2'])->name('Silbon');
+Route::get('HistoriaMS2', [HistoryController::class, 'HistoriaMs2'])->name('Silbon2');
+Route::get('HistoriaM3', [HistoryController::class, 'HistoriaM3'])->name('juan');
+Route::get('HistoriaMS3', [HistoryController::class, 'HistoriaMs3'])->name('juan2');
+Route::get('HistoriaM4', [HistoryController::class, 'HistoriaM4'])->name('Rezo');
+
+////////////////////////////////////////PUTUMAYO/////////////////////////////////////////////////////////////////
+Route::get('HistoriaPu1', [HistoryController::class, 'HistoriaPu1'])->name('Chumbelo');
+Route::get('HistoriaPu2', [HistoryController::class, 'HistoriaPu2'])->name('DiabloV');
+Route::get('HistoriaPu3', [HistoryController::class, 'HistoriaPu3'])->name('Fuete');
+Route::get('HistoriaPut3', [HistoryController::class, 'HistoriaPut3'])->name('Fuete2');
+Route::get('HistoriaPu4', [HistoryController::class, 'HistoriaPu4'])->name('Yage');
+Route::get('HistoriaPut4', [HistoryController::class, 'HistoriaPut4'])->name('Yage2');
