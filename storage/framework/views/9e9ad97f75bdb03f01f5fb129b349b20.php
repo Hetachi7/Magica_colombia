@@ -26,110 +26,61 @@
 </header>
 
 <div class="titulo">
-   <h1>DEPARTAMENTO NARÑO</h1>
+   <h1>DEPARTAMENTO NARIÑO</h1>
 </div>
 
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/virgen.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/cueche.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>EL Cueche</h3>
+            <p>El Arco iris fue el símbolo de paz entre Dios y el hombre según reza la Sagrada Biblia, pero en nuestra región y en otras del sur occidente patrio y norte del estado vecino; fue siempre parodia del demonio.</p>
+            <a href="<?php echo e(route('cueche')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 1.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/cocha.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>La Laguna de la Cocha</h3>
+            <p>El cacique Pucara, cuyo nombre significa Fortaleza, estaba enamorado de la princesa Lluvia de Estrellas, logró conquistarla y formar con ella un hogar donde nacieron tres hijos: Lucero.</p>
+            <a href="<?php echo e(route('laguna')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/padre.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>El Padre Sin Cabeza</h3>
+            <p>
+                En las ciudades que se fundaran mucho tiempo ha, en sus calles añejas que de una u otra manera fueran a dar con alguna de sus iglesias o con el cementerio, es muy común el que se hayan.</p>
+            <a href="<?php echo e(route('padre')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 3.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/viuda.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>La Viuda</h3>
+            <p>Suele aparecerse a los hombres ebrios tomando la apariencia de una hermosa mujer. Acostumbra a llevarlos con sus embrujos hacia el cementerio para encerrarlos dentro de bóvedas.</p>
+            <a href="<?php echo e(route('viuda')); ?>">Leer más</a>
 
         </div>
 
     </div>
 
 </div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 4.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 5.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 6.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 7.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
 
 </div>
 

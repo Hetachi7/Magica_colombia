@@ -19,6 +19,41 @@ return view('leyenda');
 
     return view('dosleyenda');
   }
+  //////////////////////////////AMAZONAS//////////////////////////////
+
+  public function HistoriaA1 (){
+    return view('HistoriasAmazonas.HistoriaBufeo');
+  }
+  public function HistoriaA2 (){
+    return view('HistoriasAmazonas.HistoriaChuya');
+  }
+  public function HistoriaA3 (){
+    return view('HistoriasAmazonas.HistoriaCreacion');
+  }
+  public function HistoriaAm3 (){
+    return view('HistoriasAmazonas.HistoriaCreacion2');
+  }
+  public function HistoriaA4 (){
+    return view('HistoriasAmazonas.HistoriaCupurita');
+  }
+
+  //////////////////////////////BOYACA////////////////////////////////
+  public function HistoriaB1 (){
+    return view('HistoriasBoyaca.HistoiraPajaro');
+  }
+  public function HistoriaB2 (){
+    return view('HistoriasBoyaca.HistoriaCaciqueR');
+  }
+  public function HistoriaB3 (){
+    return view('HistoriasBoyaca.HistoriaElperro');
+  }
+  public function HistoriaB4 (){
+    return view('HistoriasBoyaca.HistoriaGorancha');
+  }
+  public function HistoriaBo4 (){
+    return view('HistoriasBoyaca.HistoriaGoroncha2');
+  }
+
   //////////////////////////////CAQUETA///////////////////////////////
   
   public function HistoriaCaq1 (){
@@ -59,6 +94,25 @@ return view('leyenda');
   public function HistoriaCasa4 (){
     return view('HistoriasCasanare.HistoriasSupersticiones2');
   }
+  //////////////////////////////CAUCA/////////////////////////////////
+  public function HistoriaCau1 (){
+    return view('HistoriasCaqueta.HistoriaElencanto');
+  }
+  public function HistoriaCau2 (){
+    return view('HistoriasCaqueta.HistoriaElencanto');
+  }
+  public function HistoriaCA2 (){
+    return view('HistoriasCaqueta.HistoriaElencanto');
+  }
+  public function HistoriaCau3 (){
+    return view('HistoriasCaqueta.HistoriaElencanto');
+  }
+  public function HistoriaCA3 (){
+    return view('HistoriasCaqueta.HistoriaElencanto');
+  }
+  public function HistoriaCau4 (){
+    return view('HistoriasCaqueta.HistoriaElencanto');
+  }
   //////////////////////////////CUNDINAMARCA//////////////////////////
 
   public function HistoriaC1 (){
@@ -80,8 +134,43 @@ return view('leyenda');
     return view('HistoriasCundinamarca.HistoriaDamaverde2');
   }
 
+////////////////////////////////GUAINIA///////////////////////////////
+public function HistoriaG1 (){
+  return view('HistoriasGuainia.Historiaflor');
+}
+public function HistoriaGu1 (){
+  return view('HistoriasGuainia.Historiaflor2');
+}
+public function HistoriaG2 (){
+  return view('HistoriasGuainia.Historiaindia');
+}
+public function HistoriaGu2 (){
+  return view('HistoriasGuainia.Historiaindia2');
+}
+public function HistoriaG3 (){
+  return view('HistoriasGuainia.HistoriaSoto');
+}
+////////////////////////////////GUAVIARE/////////////////////////////
 
-  //////////////////////////////HUILA/////////////////////////////////
+public function HistoriaGv1 (){
+  return view('HistoriasGuaviare.HistoriaCompadre');
+}
+public function HistoriaGv2 (){
+  return view('HistoriasGuaviare.HistoriaCrea');
+}
+public function HistoriaGuv2 (){
+  return view('HistoriasGuaviare.HistoriaCrea2');
+}
+public function HistoriaGv3 (){
+  return view('HistoriasGuaviare.Historiamotorista');
+}
+public function HistoriaGv4 (){
+  return view('HistoriasGuaviare.HistoriaYurupari');
+}
+public function HistoriaGuv4 (){
+  return view('HistoriasGuaviare.HistoriaYuripari2');
+}
+///////////////////////////////HUILA/////////////////////////////////
 
   public function HistoriaH1 (){
     return view('HistoriasHuila.HistoriaGuiatana');
@@ -119,6 +208,28 @@ return view('leyenda');
   public function HistoriaM4 (){
     return view('HistoriasMeta.HistoriaElRezoDelPesacdo');
   }
+  //////////////////////////////NARIÑO////////////////////////////////
+  public function HistoriaÑ1 (){
+    return view('HistoriasNariño.HistoriaCueche');
+  }
+  public function HistoriaÑa1 (){
+    return view('HistoriasNariño.HistoriaCueche2');
+  }
+  public function HistoriaÑ2 (){
+    return view('HistoriasNariño.Historialaguna');
+  }
+  public function HistoriaÑa2 (){
+    return view('HistoriasNariño.Historialaguna2');
+  }
+  public function HistoriaÑ3 (){
+    return view('HistoriasNariño.Historiapadre');
+  }
+  public function HistoriaÑ4 (){
+    return view('HistoriasNariño.HistoriaViuda');
+  }
+
+
+
   //////////////////////////////PUTUMAYO//////////////////////////////
   public function HistoriaPu1 (){
     return view('HistoriasPutumayo.HistoriaChumbelo');
@@ -137,6 +248,54 @@ return view('leyenda');
   }
   public function HistoriaPut4(){
     return view('HistoriasPutumayo.HistoriaYage2');
+  }
+  //////////////////////////////VALLE DEL CAUCA//////////////////////
+  public function HistoriaVll1 (){
+    return view('HistoriasValledelcauca.HistoriaBurizaco');
+  }
+  public function HistoriaVll2 (){
+    return view('HistoriasValledelcauca.HistoriaMano');
+  }
+  public function HistoriaVll3 (){
+    return view('HistoriasValledelcauca.HistoriaTunda');
+  }
+  //////////////////////////////VAUPES///////////////////////////////
+  public function HistoriaVa1 (){
+    return view('HistoriasVaupes.Historiaagueros');
+  }
+  public function HistoriaVau1 (){
+    return view('HistoriasVaupes.Historiaagueros2');
+  }
+  public function HistoriaVa2 (){
+    return view('HistoriasVaupes.HistoriaDanta');
+  }
+  public function HistoriaVa3 (){
+    return view('HistoriasVaupes.HistoriaSol');
+  }
+  public function HistoriaVau3 (){
+    return view('HistoriasVaupes.HistoriaSol2');
+  }
+  public function HistoriaVau4 (){
+    return view('HistoriasVaupes.Historiasol3');
+  }
+  public function HistoriaVau5 (){
+    return view('HistoriasVaupes.HistoriaSol4');
+  }
+  public function HistoriaVa4 (){
+    return view('HistoriasVaupes.HistoriaVaupes');
+  }
+  public function HistoriaVau6 (){
+    return view('HistoriasVaupes.Historiavaupes2');
+  }
+  public function HistoriaVau7 (){
+    return view('HistoriasVaupes.Historiavaupes3');
+  }
+  //////////////////////////////VICHADA//////////////////////////////
+  public function HistoriaV1 (){
+    return view('HistoriasVichada.HistoriaLaja');
+  }
+  public function HistoriaV2 (){
+    return view('HistoriasVichada.HistoriaLeko');
   }
 
 }

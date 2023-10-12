@@ -32,12 +32,12 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/laja.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>El Encanto de la Laja</h3>
+            <p>Es una leyenda mitológica que se fundamenta principalmente en el sector pesquero. Juan Reyes, un señor de estas tierras que murió hace más de 10 años, quien vivía en el Cerro del Vita y su compañía era cualquier cantidad de perros.</p>
+            <a href="{{route('laja')}}">Leer más</a>
 
         </div>
 
@@ -47,9 +47,10 @@
             <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>Historia De Lekonaiwa</h3>
+            <p>
+                En el conuco un hombre tenía un gran cultivo de ají. Aunque el hombre visitaba su cultivo diariamente, cuando la cosecha de ají estaba lista para ser recogida, las pepas desaparecían del cultivo y lo único que encontraba era el.</p>
+            <a href="{{route('leko')}}">Leer más</a>
 
         </div>
 
@@ -80,59 +81,5 @@
     </div>
 
 </div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 4.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 5.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 6.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 7.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
-
-</div>
-
-
 
 

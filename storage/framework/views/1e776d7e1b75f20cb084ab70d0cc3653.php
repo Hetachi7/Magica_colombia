@@ -32,108 +32,52 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/virgen.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/cresta.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>La Cresta del Gallo</h3>
+            <p>en la vereda Piedra Santa municipio del Tambo -Cauca. al oriente se observa  una montaña muy alta mide aproximadamente  800 metros  de altura ,tambien tiene gran variedad de fauna.</p>
+            <a href="<?php echo e(route('cresta')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 1.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/llorona.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>La Llrona del Cauca</h3>
+            <p>Durante los primeros años del México Colonial existió una mujer indígena de gran belleza que se enamoró locamente de un español y con quien tuvo tres hijos . A pesar de ello este caballero .</p>
+            <a href="<?php echo e(route('llorona')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/patia.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>El Valle del Patia</h3>
+            <p>
+                En tiempos inmemorables, el Valle del Patía no tenía vegetación. Todo estaba cubierto por agua formando un tranquilo lago cuyas orillas lamían los pies de las cordilleras central y occidental. En el agua.</p>
+            <a href="<?php echo e(route('patia')); ?>">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 3.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/sebastian.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
+            <h3>Leyenda del Diablo de San Sebastian</h3>
+            <p> En la década de los cuarentas, los padres eran considerados por la comunidad como unos santos y la gente era muy estricta en cuanto a lo espiritual.Del Huila al Valle de.</p>
+            <a href="<?php echo e(route('sebas')); ?>">Leer más</a>
 
         </div>
 
     </div>
-
 </div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 4.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 5.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 6.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 7.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
-
-</div>
-
-
-
-
-<?php /**PATH C:\xampp\htdocs\Magica_colombia\resources\views////Departamentos/tarjetaCauca.blade.php ENDPATH**/ ?>
+   <?php /**PATH C:\xampp\htdocs\Magica_colombia\resources\views////Departamentos/tarjetaCauca.blade.php ENDPATH**/ ?>

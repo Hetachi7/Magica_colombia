@@ -32,36 +32,36 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/soto.jpg') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>La Leyenda de Sotomayor Guanina</h3>
+            <p>     Cuenta la leyenda, que el cacique Agüeybaná el Bravo, asignado a Sotomayor en los repartimientos, tenía una hermana llamada Guanina. Guanina era una hermosa india que tenía un taíno.</p>
+            <a href="{{route('soto')}}">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/Flor.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>LA PRINCESA FLOR EN EL CERRO PAJARITO</h3>
+            <p>Cuenta la historia que la palabra Inírida significa “espejito de sol”, un nombre muy bonito para una indígena que habita en el cerro Pajarito desde hace siglos. Dicen que desde niña, Inírida era tan.</p>
+            <a href="{{route('flor')}}">Leer más</a>
 
         </div>
 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/india.png') }}" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
+            <h3>India Guainia</h3>
+            <p>A los siete días de haber entrado al cerro fue vista por los familiares que iban con el fin de rescatarla. Ella salió a la puerta vestida de hierbas, con un largo manto de color blanco y con flores de todos los colores.</p>
+            <a href="{{route('india')}}">Leer más</a>
 
         </div>
 
@@ -80,58 +80,7 @@
     </div>
 
 </div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 4.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
 
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 5.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="{{route('leyenda')}}">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 6.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 7.jpg') }}" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
-
-</div>
 
 
 

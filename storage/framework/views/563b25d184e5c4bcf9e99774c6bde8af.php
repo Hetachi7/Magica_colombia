@@ -32,11 +32,11 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/virgen.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/bufeo.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
+            <h3>EL Bufeo Colorado</h3>
+            <p>Este famoso pez del Amazonas es también conocido como tonina o delfín. Se cree que se convierte en hombre para seducir a las mujeres. Las muelas y algunas partes del cuerpo de la hembra se usan como talismanes en la pesca, la cacería.</p>
             <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
 
         </div>
@@ -44,11 +44,11 @@
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 1.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/chuya.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
+            <h3>El Chuyanchique</h3>
+            <p>es considerado el duende o guardián del bosque; infunde respeto y temor a propios y extraños. Está asociado o relacionado, a menudo, con el diablo, en algunas variantes, y en parte, con seres demoníacos.</p>
             <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
 
         </div>
@@ -56,11 +56,11 @@
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/creacion.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
+            <h3>Mito de la Creacion</h3>
+            <p>La explicación del origen del pueblo de los Ticunas, llamados “Pieles negras” por sus vecinos debido a que así pintaban sus cuerpos en las ceremonias dedicadas a sus dioses o sus protectores de clan, narra que Yuche.</p>
             <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
 
         </div>
@@ -68,11 +68,11 @@
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 3.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/cupurita.png')); ?>" >
         </figure>
         <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
+            <h3>Cupurita</h3>
+            <p>Hablamos de uno de los personajes más conocidos en el país: Curupira.Curupira es conocido como el guardián de los bosques, habita en las matas ColomboBrazileñas y se encarga de proteger la naturaleza, ya sean.</p>
             <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
 
         </div>
@@ -80,60 +80,4 @@
     </div>
 
 </div>
-<div class="container">
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 4.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 5.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="<?php echo e(route('leyenda')); ?>">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 6.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <div class="tarjetas">
-        <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 7.jpg')); ?>" >
-        </figure>
-        <div class="contenido">
-            <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
-            <a href="blade.php">Leer más</a>
-
-        </div>
-
-    </div>
-    <p></p>
-
-</div>
-
-
-
-
 <?php /**PATH C:\xampp\htdocs\Magica_colombia\resources\views////Departamentos/tarjetaAmazonas.blade.php ENDPATH**/ ?>
