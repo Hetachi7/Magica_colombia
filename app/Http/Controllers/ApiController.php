@@ -53,7 +53,7 @@ class ApiController extends Controller
  {
    if (!Auth::attempt($request->only('email', 'password'))) {
      return response()
-       ->json(['message' => 'Unauthorized'], 401);
+       ->json(['message' => 'Invalid email or password'], 401);
    }
 
    $user = User::where('email', $request['email'])->firstOrFail();
@@ -62,7 +62,7 @@ class ApiController extends Controller
 
    return response()
      ->json([
-       'message'      => 'Hi! ' . $user->name,
+       'message'      => 'Hi!' . $user->name,
        'access_token' => $token,
        'token_type'   => 'Bearer',
        'user'         => $user,
