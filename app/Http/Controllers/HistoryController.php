@@ -36,6 +36,8 @@ return view('leyenda');
   public function HistoriaA4 (){
     return view('HistoriasAmazonas.HistoriaCupurita');
   }
+  //////////////////////////////ANTIOQUIA//////////////////////////////
+  
 
   //////////////////////////////BOYACA////////////////////////////////
   public function HistoriaB1 (){
@@ -113,6 +115,40 @@ return view('leyenda');
   public function HistoriaCau4 (){
     return view('HistoriasCaqueta.HistoriaElencanto');
   }
+  //////////////////////////////CHOCO/////////////////////////////////
+  public function HistoriaCho1 (){
+    return view('HistoriasChoco.Historiaindio');
+  }
+  public function HistoriaCho2 (){
+    return view('HistoriasChoco.HistoriaMohan');
+  }
+  public function HistoriaCho2a (){
+    return view('HistoriasChoco.HistoriaMohan2');
+  }
+  public function HistoriaCho3 (){
+    return view('HistoriasChoco.HistoriaMuelona');
+  }
+  public function HistoriaCho3a (){
+    return view('HistoriasChoco.HistoriaMuelona2');
+  }
+  public function HistoriaCho4 (){
+    return view('HistoriasChoco.HitoriaAnima');
+  }
+  //////////////////////////////CORDOBA////////////////////////////////
+
+ public function HistoriaCor1 (){
+    return view('HistoriasCordoba.HistoriaAguerosCo');
+  }
+  
+  public function HistoriaCor2 (){
+    return view('HistoriasCordoba.HistoriaAguja');
+  }
+  public function HistoriaCor3 (){
+    return view('HistoriasCordoba.HistoriaAnimes');
+  }
+  public function HistoriaCor4 (){
+    return view('HistoriasCordoba.HistoriaElGriton');
+  }
   //////////////////////////////CUNDINAMARCA//////////////////////////
 
   public function HistoriaC1 (){
@@ -187,7 +223,26 @@ public function HistoriaGuv4 (){
   public function HistoriaH3 (){
     return view('HistoriasHuila.HistoriaTaitapuro');
   }
+////////////////////////////////MAGDALENA/////////////////////////////
 
+public function HistoriaMa1 (){
+  return view('HistoriasMagdalena.HistoriaBramadora');
+}
+public function HistoriaMa2 (){
+  return view('HistoriasMagdalena.HistoriaCaiman');
+}
+public function HistoriaMa2a (){
+  return view('HistoriasMagdalena.HistoriaCaiman2');
+}
+public function HistoriaMa3 (){
+  return view('HistoriasMagdalena.HistoriaCasa');
+}
+public function HistoriaMa4 (){
+  return view('HistoriasMagdalena.HistoriaPata');
+}
+public function HistoriaMa4a (){
+  return view('HistoriasMagdalena.HistoriaPata2');
+}
   //////////////////////////////Meta//////////////////////////////////
   public function HistoriaM1 (){
     return view('HistoriasMeta.HistoriaLaCandileja');
@@ -227,9 +282,6 @@ public function HistoriaGuv4 (){
   public function HistoriaÑ4 (){
     return view('HistoriasNariño.HistoriaViuda');
   }
-
-
-
   //////////////////////////////PUTUMAYO//////////////////////////////
   public function HistoriaPu1 (){
     return view('HistoriasPutumayo.HistoriaChumbelo');
@@ -248,6 +300,13 @@ public function HistoriaGuv4 (){
   }
   public function HistoriaPut4(){
     return view('HistoriasPutumayo.HistoriaYage2');
+  }
+  //////////////////////////////SUCRE////////////////////////////////
+  public function HistoriaSu1 (){
+    return view('HistoriasSucre.HistoriaCorcovao');
+  }
+  public function HistoriaSu2 (){
+    return view('HistoriasSucre.HistoriaJuan');
   }
   //////////////////////////////VALLE DEL CAUCA//////////////////////
   public function HistoriaVll1 (){

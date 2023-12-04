@@ -14,27 +14,13 @@
     <div class="formulario">
         <img class="avatar" src="<?php echo e(asset('local_storage/img/logo.png')); ?>"  alt="Logo de empresa">
         <h1>Registrate</h1>
-        <form method= "post" action="">
+        <form action="/register" method="POST">
                <?php echo csrf_field(); ?>
-                <label>Nombres</label>
-                <input type="text" name="nombres" placeholder="Ingrese sus nombres">
-
-                <label>Apellidos</label>
-                <input type="text" name="apellidos" placeholder="Ingrese sus Apellidos">
-
-                <?php $__errorArgs = ['apellidos'];
-$__bag = $errors->getBag($__errorArgs[1] ?? 'default');
-if ($__bag->has($__errorArgs[0])) :
-if (isset($message)) { $__messageOriginal = $message; }
-$message = $__bag->first($__errorArgs[0]); ?>
-                <div class="alert alert-danger"><?php echo e($message); ?></div>
-                <?php unset($message);
-if (isset($__messageOriginal)) { $message = $__messageOriginal; }
-endif;
-unset($__errorArgs, $__bag); ?>
+                <label>Usuario</label>
+                <input type="text" name="Usuario" placeholder="Ingrese tu Usuario">
 
                 <label>E-mail</label>
-                <input type="text" name="email"  placeholder="Ingrese su G-mail">
+                <input type="text" name="E-mail" placeholder="Ingrese sus Correo">
 
                 <?php $__errorArgs = ['email'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -46,8 +32,22 @@ $message = $__bag->first($__errorArgs[0]); ?>
 if (isset($__messageOriginal)) { $message = $__messageOriginal; }
 endif;
 unset($__errorArgs, $__bag); ?>
-                <label>Contraseña</label>
-                <input type="password" name="pasword" placeholder="Ingrese su contraseña">
+
+                <label>password</label>
+                <input type="text" name="password"  placeholder="Ingrese su contraseña">
+
+                <?php $__errorArgs = ['password'];
+$__bag = $errors->getBag($__errorArgs[1] ?? 'default');
+if ($__bag->has($__errorArgs[0])) :
+if (isset($message)) { $__messageOriginal = $message; }
+$message = $__bag->first($__errorArgs[0]); ?>
+                <div class="alert alert-danger"><?php echo e($message); ?></div>
+                <?php unset($message);
+if (isset($__messageOriginal)) { $message = $__messageOriginal; }
+endif;
+unset($__errorArgs, $__bag); ?>
+                <label>Confirmar contraseña</label>
+                <input type="password" name="pasword" placeholder="Confirmar contraseña">
 
                 <?php $__errorArgs = ['password'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');

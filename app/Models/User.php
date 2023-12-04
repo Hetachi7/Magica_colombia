@@ -10,6 +10,11 @@ use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
+    use HasFactory;
+    public function connectedMap()
+    {
+        return $this->belongsTo('App/Models/Mapasvg');
+    }
     use HasApiTokens, HasFactory, Notifiable;
 
     /**
@@ -42,4 +47,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+    
+    public function setPasswordAttribute($value){
+        $this->attributes['password']= bcrypt($value);
+    }
 }

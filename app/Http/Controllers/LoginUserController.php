@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Http\Requests\LoginRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class LoginUserController extends Controller
 {
@@ -16,21 +18,25 @@ class LoginUserController extends Controller
         return view('iniciodesesion');
     }
 
-    public function validarInicio(Request $request)
-    {
-        $validatedData = $request->validate([
-            'nombres' => 'required',
-            'email' => 'required|email|unique:users,email',
-            'password' => 'required|min:6',
-        ]);
+    public function iniciar(LoginRequest $request){
+        $credentials = $request->getCredentials();
 
+        if(!Auth::validate($credentials)){
+           return redirect()->to('/login')->withErrors('Error');
+           //return redirect('Error');
+        }
+       
+        $user = Auth::getProvider()->retrieveByCredentials($credentials);
+        
+        Auth::login($user);
+        return $this->authenticated($request, $user);
 
-
-
-
-        return redirect()->route('inicio')->with('success', 'Inicio correcto');
+        }
+        public function authenticated(Request $request, $user){
+            return redirect('/contenido');
     }
 
+    
 
     public function crear()
     {
