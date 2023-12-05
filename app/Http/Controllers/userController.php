@@ -47,11 +47,5 @@ class userController extends Controller
         return $user;
     }
 
-    public function destroy($id)
-    {
-        $user = User::findOrFail($id);
-        $user->delete();
-
-        return ['message' => 'Usuario Eliminado Correctamente ..::Magica colombia:..'];
-    }
+   
 }
