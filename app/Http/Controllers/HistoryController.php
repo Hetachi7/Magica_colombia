@@ -36,8 +36,6 @@ return view('leyenda');
   public function HistoriaA4 (){
     return view('HistoriasAmazonas.HistoriaCupurita');
   }
-  //////////////////////////////ANTIOQUIA//////////////////////////////
-  
 
   //////////////////////////////BOYACA////////////////////////////////
   public function HistoriaB1 (){
@@ -356,6 +354,167 @@ public function HistoriaMa4a (){
   public function HistoriaV2 (){
     return view('HistoriasVichada.HistoriaLeko');
   }
+////////////////////////////// ATLANTICO //////////////////////////
+public function HistoriaATL1 (){
+  return view('HistoriasAtlantico.HistoriaElLucio');
+}
+public function HistoriaATL2 (){
+  return view('HistoriasAtlantico.HistoriaMamita');
+}
+public function HistoriaATL3 (){
+  return view('HistoriasAtlantico.HistoriaMohana');
+}
+public function HistoriaATL4 (){
+  return view('HistoriasAtlantico.HistoriaLaHoraSantaMarta');
+}
+
+/////////////////////////// LA GUAJIRA //////////////////////////////
+
+public function HistoriaLG1 (){
+  return view('HistoriasLaGuajira.HistoriaFranciscoElHombre');
+}
+public function HistoriaLG2 (){
+  return view('HistoriasLaGuajira.HistoriaKeralia');
+}
+public function HistoriaLG3 (){
+  return view('HistoriasLaGuajira.HistoriaElJinete');
+}
+public function HistoriaLG4 (){
+  return view('HistoriasLaGuajira.HistoriaSerraniaMacuira');
+}
+
+///////////////////////////// ARAUCA //////////////////////////////
+
+public function HistoriaAR1 (){
+  return view('HistoriasArauca.HistoriaLeyendaSayona');
+}
+public function HistoriaAR2 (){
+  return view('HistoriaArauca.HistoriaMadreVieja');
+}
+public function HistoriaAR3 (){
+  return view('HistoriaArauca.HistoriaSupersticiones');
+}
+public function HistoriaAR4 (){
+  return view('HistoriasArauca.HistoriaAgueros');
+}
+////////////////////// BOLIVAR ///////////////////////
+public function HistoriaBV1 (){
+  return view('HistoriaBolivar.HistoriaElAnimero');
+}
+public function HistoriaBV2 (){
+  return view('HistoriaBolivar.HistoriaElNazarenoDeOtroMundo');
+}
+public function HistoriaBV3 (){
+  return view('HistoriaBolivar.HistoriaElPozoDeNoria');
+}
+public function HistoriaBV4 (){
+  return view('HistoriasBolivar.HistoriaCaballoCojo');
+}
+
+////////////////////// CALDAS //////////////////////////
+
+public function HistoriaCD1 (){
+  return view('HistoriaCaldas.HistoriaPatetarro');
+}
+public function HistoriaCD2 (){
+  return view('HistoriaCaldas.HistoriaLaMadreMonte');
+}
+public function HistoriaCD3 (){
+  return view('HistoriaCaldas.HistoriaPataSola');
+}
+public function HistoriaCD4 (){
+  return view('HistoriasCaldas.HistoriaAguersticiones');
+}
+
+/////////////////////////// CESAR //////////////////////
+
+public function HistoriaCS1 (){
+  return view('HistoriaCesar.HistoriaLeyendaVallenata');
+}
+public function HistoriaCS2 (){
+  return view('HistoriaCesar.HistoriaEspantosAparecidos');
+}
+public function HistoriaCS3 (){
+  return view('HistoriaCesar.HistoriaLaCuevaLosSieteCaballos');
+}
+public function HistoriaCS4 (){
+  return view('HistoriasCesar.HistoriaLaSeiva');
+}
+
+//////////////// NORTE DE SANTANDER /////////////////////7
+
+public function HistoriaNST1 (){
+  return view('HistoriaNorteSantander.HistoriaLeyendaVallenata');
+}
+public function HistoriaNST2 (){
+  return view('HistoriaNorteSantander.HistoriaEspantosAparecidos');
+}
+public function HistoriaNST3 (){
+  return view('HistoriaNorteSantander.HistoriaEspantoEnElPueblo');
+}
+public function HistoriaNST4 (){
+  return view('HistoriasNorteSantander.HistoriaElBorracho');
+}
+////////////////// QUINDIO ////////////////////////////
+
+public function HistoriaQN1 (){
+  return view('HistoriaQuindio.HistoriasGruposAncestrales');
+}
+public function HistoriaQN2 (){
+  return view('HistoriaQuindio.HistoriaMamont');
+}
+public function HistoriaQN3 (){
+  return view('HistoriaQuindio.HistoriaHojarasquinDelMonte');
+}
+public function HistoriaQN4 (){
+  return view('HistoriasQuindio.HistoriasMas');
+}
+
+//////////////// RISARALDA  ////////////////////
+
+public function HistoriaRL1 (){
+  return view('HistoriaRisaralda.HistoriasChinchia');
+}
+public function HistoriaRL2 (){
+  return view('HistoriaRisaralda.HistoriaSantaRosa');
+}
+public function HistoriaRL3 (){
+  return view('HistoriaRisaralda.HistoriaAguero');
+}
+public function HistoriaRL4 (){
+  return view('HistoriasRisaralda.HistoriaPresagio');
+}
+
+/////////////// TOLIMA /////////////////////////////
+public function HistoriaTL1 (){
+  return view('HistoriaTolima.HistoriaElLuango');
+}
+public function HistoriaTL2 (){
+  return view('HistoriaTolima.HistoriaTolimences');
+}
+public function HistoriaTL3 (){
+  return view('HistoriaTolima.HistoriaMedicas');
+}
+public function HistoriaTL4 (){
+  return view('HistoriaTolima.HistoriaIndigenas');
+}
+
+//////////// ANTIOQUIA /////////////
+
+public function HistoriaAN1 (){
+  return view('HistoriaAntioquia.HistoriaElJineteSinJamarro');
+}
+public function HistoriaAN2 (){
+  return view('HistoriaAntioquia.HistoriaAnimaSola');
+}
+public function HistoriaAN3 (){
+  return view('HistoriaAntioquia.HistoriaMedicas');
+}
+public function HistoriaAN4 (){
+  return view('HistoriaAntioquia.HistoriaHojaraki');
+}
 
 }
+
+
 

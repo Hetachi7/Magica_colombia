@@ -20,16 +20,9 @@ use Illuminate\Auth\Events\Login;
 |
 */
 
-Route::get('/login', function(){
-    return view('Registro');
-});
+Route::get ('/inicio', [IndexController::class, 'index'])->name('inicio');
 
-
-
-
-Route::get('/inicio', [IndexController::class, 'index'])->name('inicio');
-
-Route::get('quienesomos', [IndexController::class, 'info'])->name('info');
+Route::get('quienesomos', [IndexController::class, 'info'])->name ('info');
 
 Route::get('perfil', [IndexController::class, 'perfil'])->name('perfil');
 
@@ -47,11 +40,15 @@ route::get('user/recuperar', [LoginUserController::class, 'Recuperar'])->name('r
 
 route::get('Login', [LoginUserController::class, 'login'])->name('iniciosesion');
 
+Route::get('validar-inicio', [LoginUserController::class, 'validarInicio']);
+
 route::get('dosleyendas', [HistoryController::class, 'DosLeyendas']);
 
 route::get('contacto', [IndexController::class, 'Contacto'])->name('contac');
 
-Route::get('Registro', [Signupcontroller::class, 'show'])->name('registro');
+Route::get('Registro', [Signupcontroller::class, 'Registro'])->name('registro');
+
+Route::post('validar-registro', [Signupcontroller::class, 'validarRegistro']);
 
 
 //RUTAS DEPARTAMENTOS
@@ -119,6 +116,20 @@ Route::get('tarjetaQuindio', [DepartamentUserController::class, 'Quindio'])->nam
 
 Route::get('tarjetaTolima', [DepartamentUserController::class, 'Tolima'])->name('laslechonas');
 
+
+///// Creacion de Hitorias/////////////////////////////////////////////////////////////////////////////////
+
+
+Route::post('/guardar-historia', [CreateHistoryController::class, 'guardarHistoria'])->name('guardarHistoria');
+
+Route::post('/guardar-datos', [IndexController::class, 'guardarDatos'])->name('guardarDatos');
+
+
+/// RUTA DEL REGISTRO ///
+
+Route::get('/registro', [LoginUserController::class, 'crear'])->name('registro.crear');
+Route::post('/registro', [LoginUserController::class, 'guardar'])->name('registro.guardar');
+
 ////////////////////// Historias/////////////////////////////////
 
 ////////////////////////////////////////AMAZONAS/////////////////////////////////////////////////////////////////
@@ -127,8 +138,6 @@ Route::get('HistoriaA2', [HistoryController::class, 'HistoriaA2'])->name('chuya'
 Route::get('HistoriaA3', [HistoryController::class, 'HistoriaA3'])->name('creacion');
 Route::get('HistoriaAm3', [HistoryController::class, 'HistoriaAm3'])->name('creacion2');
 Route::get('HistoriaA4', [HistoryController::class, 'HistoriaA4'])->name('cupurita');
-
-/////////////////////////////////////////ANTIOQUIA/////////////////////////////////////////////////////////////
 
 ////////////////////////////////////////BOYACA///////////////////////////////////////////////////////////////////
 Route::get('HistoriaB1', [HistoryController::class, 'HistoriaB1'])->name('pajaro');
@@ -157,18 +166,7 @@ Route::get('HistoriaCA2', [HistoryController::class, 'HistoriaCA2'])->name('llor
 Route::get('HistoriaCau3', [HistoryController::class, 'HistoriaCau3'])->name('patia');
 Route::get('HistoriaCA3', [HistoryController::class, 'HistoriaCA3'])->name('patia2');
 Route::get('HistoriaCau4', [HistoryController::class, 'HistoriaCau4'])->name('sebas');
-////////////////////////////////////////CHOCO////////////////////////////////////////////////////////////////////
-Route::get('HistoriaCho1', [HistoryController::class, 'HistoriaCho1'])->name('indio');
-Route::get('HistoriaCho2', [HistoryController::class, 'HistoriaCho2'])->name('mohan');
-Route::get('HistoriaCho2a', [HistoryController::class, 'HistoriaCho2a'])->name('mohan2');
-Route::get('HistoriaCho3', [HistoryController::class, 'HistoriaCho3'])->name('muelon');
-Route::get('HistoriaCho3a', [HistoryController::class, 'HistoriaCho3a'])->name('muelon2');
-Route::get('HistoriaCho4', [HistoryController::class, 'HistoriaCho4'])->name('anima');
-////////////////////////////////////////CORDOBA//////////////////////////////////////////////////////////////////
-Route::get('HistoriaCor1', [HistoryController::class, 'HistoriaCor1'])->name('agueroco');
-Route::get('HistoriaCor2', [HistoryController::class, 'HistoriaCor2'])->name('aguja');
-Route::get('HistoriaCor3', [HistoryController::class, 'HistoriaCor3'])->name('anime');
-Route::get('HistoriaCor4', [HistoryController::class, 'HistoriaCor4'])->name('griton');
+
 ////////////////////////////////////////CUNDINAMARCA/////////////////////////////////////////////////////////////
 Route::get('HistoriaC1', [HistoryController::class, 'HistoriaC1'])->name('3brujas');
 Route::get('HistoriaCu1', [HistoryController::class, 'HistoriaCu1'])->name('3brujas2');
@@ -189,19 +187,13 @@ Route::get('HistoriaGuv2', [HistoryController::class, 'HistoriaGuv2'])->name('cr
 Route::get('HistoriaGv3', [HistoryController::class, 'HistoriaGv3'])->name('moto');
 Route::get('HistoriaGv4', [HistoryController::class, 'HistoriaGv4'])->name('yuripa');
 Route::get('HistoriaGuv4', [HistoryController::class, 'HistoriaGuv1'])->name('yuripa2');
+
 ////////////////////////////////////////HUILA////////////////////////////////////////////////////////////////////
 Route::get('HistoriaH1', [HistoryController::class, 'HistoriaH1'])->name('Guitana');
 Route::get('HistoriaHu1', [HistoryController::class, 'HistoriaHu1'])->name('Guitana2');
 Route::get('HistoriaH2', [HistoryController::class, 'HistoriaH2'])->name('Sombre');
 Route::get('HistoriaHu2', [HistoryController::class, 'HistoriaHu2'])->name('Sombre2');
 Route::get('HistoriaH3', [HistoryController::class, 'HistoriaH3'])->name('Taita');
-////////////////////////////////////////MAGDALENA////////////////////////////////////////////////////////////////
-Route::get('HistoriaMa1', [HistoryController::class, 'HistoriaMa1'])->name('brama');
-Route::get('HistoriaMa2', [HistoryController::class, 'HistoriaMa2'])->name('caiman');
-Route::get('HistoriaMa2a', [HistoryController::class, 'HistoriaMa2a'])->name('caiman2');
-Route::get('HistoriaMa3', [HistoryController::class, 'HistoriaMa3'])->name('casad');
-Route::get('HistoriaMa4', [HistoryController::class, 'HistoriaMa4'])->name('pata');
-Route::get('HistoriaMa4a', [HistoryController::class, 'HistoriaMa4a'])->name('pata2');
 ////////////////////////////////////////META/////////////////////////////////////////////////////////////////////
 Route::get('HistoriaM1', [HistoryController::class, 'HistoriaM1'])->name('candileja');
 Route::get('HistoriaM2', [HistoryController::class, 'HistoriaM2'])->name('Silbon');
@@ -216,6 +208,7 @@ Route::get('HistoriaÑ2', [HistoryController::class, 'HistoriaÑ2'])->name('lagu
 Route::get('HistoriaÑa2', [HistoryController::class, 'HistoriaÑa2'])->name('laguna3');
 Route::get('HistoriaÑ3', [HistoryController::class, 'HistoriaÑ3'])->name('padre');
 Route::get('HistoriaÑ4', [HistoryController::class, 'HistoriaÑ4'])->name('viuda');
+
 ////////////////////////////////////////PUTUMAYO/////////////////////////////////////////////////////////////////
 Route::get('HistoriaPu1', [HistoryController::class, 'HistoriaPu1'])->name('Chumbelo');
 Route::get('HistoriaPu2', [HistoryController::class, 'HistoriaPu2'])->name('DiabloV');
@@ -223,13 +216,11 @@ Route::get('HistoriaPu3', [HistoryController::class, 'HistoriaPu3'])->name('Fuet
 Route::get('HistoriaPut3', [HistoryController::class, 'HistoriaPut3'])->name('Fuete2');
 Route::get('HistoriaPu4', [HistoryController::class, 'HistoriaPu4'])->name('Yage');
 Route::get('HistoriaPut4', [HistoryController::class, 'HistoriaPut4'])->name('Yage2');
-///////////////////////////////////////Sucre/////////////////////////////////////////////////////////////////////
-Route::get('HistoriaSu1', [HistoryController::class, 'HistoriaSu1'])->name('corco');
-Route::get('HistoriaSu2', [HistoryController::class, 'HistoriaSu2'])->name('lara');
 ///////////////////////////////////////VALLE DEL CAUCA///////////////////////////////////////////////////////////
 Route::get('HistoriaVll1', [HistoryController::class, 'HistoriaVll1'])->name('burizaco');
 Route::get('HistoriaVll2', [HistoryController::class, 'HistoriaVll2'])->name('mano');
 Route::get('HistoriaVll3', [HistoryController::class, 'HistoriaVll3'])->name('tunda');
+
 ///////////////////////////////////////VAUPES////////////////////////////////////////////////////////////////////
 Route::get('HistoriaVa1', [HistoryController::class, 'HistoriaVa1'])->name('ague');
 Route::get('HistoriaVau1', [HistoryController::class, 'HistoriaVau1'])->name('ague2');
@@ -245,3 +236,109 @@ Route::get('HistoriaVau7', [HistoryController::class, 'HistoriaVau7'])->name('Va
 ///////////////////////////////////////VICHADA///////////////////////////////////////////////////////////////////
 Route::get('HistoriaV1', [HistoryController::class, 'HistoriaV1'])->name('laja');
 Route::get('HistoriaV2', [HistoryController::class, 'HistoriaV2'])->name('leko');
+
+
+////////////////////////////////CESAR///////////////////////////////////////////////
+Route::get('HistoriaCsr',[HistoryController::class, 'HistoriaCs1'])->name('mmmya'); 
+
+/////////////////////////////// ATLANTICO //////////////////////////////////////////
+Route::get('HistoriaATL1', [HistoryController::class, 'HistoriaATL1'])->name('lulu');
+Route::get('HistoriaATL2', [HistoryController::class, 'HistoriaATL2'])->name('ma');
+Route::get('HistoriaATL3', [HistoryController::class, 'HistoriaATL3'])->name('mohana');
+Route::get('HistoriaATL4', [HistoryController::class, 'HistoriaATL4'])->name('ladificil');
+
+///////////////////////////// LA GUAJIRA //////////////////////////////////////////////
+
+Route::get('HistoriaLG1', [HistoryController::class, 'HistoriaLG1'])->name('francis');
+Route::get('HistoriaLG2', [HistoryController::class, 'HistoriaLG2'])->name('kera');
+Route::get('HistoriaLG3', [HistoryController::class, 'HistoriaLG3'])->name('jimy');
+Route::get('HistoriaLG4', [HistoryController::class, 'HistoriaLG4'])->name('secuida');
+
+//////////////////////////// ARAUCA /////////////////////////////////
+
+
+Route::get('HistoriaAR1', [HistoryController::class, 'HistoriaAR1'])->name('sailor');
+Route::get('HistoriaAR2', [HistoryController::class, 'HistoriaAR2'])->name('maveric');
+Route::get('HistoriaAR3', [HistoryController::class, 'HistoriaAR3'])->name('supers');
+Route::get('HistoriaAR4', [HistoryController::class, 'HistoriaAR4'])->name('aguas');
+
+
+///////////////////////// BOLIVAR /////////////////////////////////
+
+Route::get('HistoriaBV1', [HistoryController::class, 'HistoriaBV1'])->name('animeuwu');
+Route::get('HistoriaBV2', [HistoryController::class, 'HistoriaBV2'])->name('elnazareno');
+Route::get('HistoriaBV3', [HistoryController::class, 'HistoriaBV3'])->name('sñoria');
+Route::get('HistoriaBV4', [HistoryController::class, 'HistoriaBV'])->name('cojocaballo');
+
+/////////////////////////// CALDAS ////////////////////////////
+
+Route::get('HistoriaCD1', [HistoryController::class, 'HistoriaCD1'])->name('patetarru');
+Route::get('HistoriaCD2', [HistoryController::class, 'HistoriaCD2'])->name('mamonte');
+Route::get('HistoriaCD3', [HistoryController::class, 'HistoriaCD3'])->name('palone');
+Route::get('HistoriaCD4', [HistoryController::class, 'HistoriaCD'])->name('aguerque');
+
+////////////////////// CESAR ////////////////
+
+Route::get('HistoriaCS1', [HistoryController::class, 'HistoriaCS1'])->name('leyanta');
+Route::get('HistoriaCS2', [HistoryController::class, 'HistoriaCS2'])->name('espantoye');
+Route::get('HistoriaCS3', [HistoryController::class, 'HistoriaCS3'])->name('caballitos');
+Route::get('HistoriaCS4', [HistoryController::class, 'HistoriaCS4'])->name('laseiv');
+
+////////////////// NORTE DE SANTANDER ///////////////////////
+
+Route::get('HistoriaNST1', [HistoryController::class, 'HistoriaNST1'])->name('eyvalemia');
+Route::get('HistoriaNST2', [HistoryController::class, 'HistoriaNST2'])->name('laitree');
+Route::get('HistoriaNST3', [HistoryController::class, 'HistoriaNST3'])->name('espant');
+Route::get('HistoriaNST4', [HistoryController::class, 'HistoriaNST4'])->name('elborrach');
+
+/////////////////// QUINDIO //////////////////////////////
+
+Route::get('HistoriaQN', [HistoryController::class, 'HistoriaQN1'])->name('ances');
+Route::get('HistoriaQN2', [HistoryController::class, 'HistoriaQN2'])->name('mamont');
+Route::get('HistoriaQN3', [HistoryController::class, 'HistoriaQN3'])->name('ehoraski');
+Route::get('HistoriaQN4', [HistoryController::class, 'HistoriaQN4'])->name('alcoliriz');
+
+///////////////// RISARALDA ///////////////////////////////
+
+Route::get('HistoriaRL1', [HistoryController::class, 'HistoriaRL1'])->name('chimpum');
+Route::get('HistoriaRL2', [HistoryController::class, 'HistoriaRL2'])->name('sanrrose');
+Route::get('HistoriaRL3', [HistoryController::class, 'HistoriaRL3'])->name('aguero');
+Route::get('HistoriaRL4', [HistoryController::class, 'HistoriaRL4'])->name('presagio');
+
+///////////// TOLIMA /////////////////////////
+
+Route::get('HistoriaTL1', [HistoryController::class, 'HistoriaTL1'])->name('elrango');
+Route::get('HistoriaTL2', [HistoryController::class, 'HistoriatL2'])->name('elechon');
+Route::get('HistoriaTL3', [HistoryController::class, 'HistoriaTL3'])->name('medicas');
+Route::get('HistoriaTL4', [HistoryController::class, 'HistoriaT4'])->name('indigenas');
+
+
+////////////////// ANTIOQUIA /////////////////////////
+
+Route::get('HistoriaAN1', [HistoryController::class, 'HistoriaAN1'])->name('jamarro');
+Route::get('HistoriaAN2', [HistoryController::class, 'HistoriaAN2'])->name('animaso');
+Route::get('HistoriaAN3', [HistoryController::class, 'HistoriaAN3'])->name('medicas');
+Route::get('HistoriaAN4', [HistoryController::class, 'HistoriaAN4'])->name('horaki');
+
+
+////////////////// CORDOBA //////////////////////
+
+Route::get('HistoriaCB1', [HistoryController::class, 'HistoriaCB1'])->name('agueroco');
+Route::get('HistoriaCB2', [HistoryController::class, 'HistoriaCB2'])->name('griton');
+Route::get('HistoriaCB3', [HistoryController::class, 'HistoriaCB3'])->name('aguja');
+Route::get('HistoriaCB4', [HistoryController::class, 'HistoriaCB4'])->name('anime');
+
+//////////////////// MAGDALENA ////////////////////////
+
+Route::get('HistoriaMG1', [HistoryController::class, 'HistoriaMG1'])->name('caiman');
+Route::get('HistoriaMG2', [HistoryController::class, 'HistoriaMG2'])->name('pata');
+Route::get('HistoriaMG3', [HistoryController::class, 'HistoriaMG3'])->name('brama');
+Route::get('HistoriaMG4', [HistoryController::class, 'HistoriaMG4'])->name('casad');
+
+////////////////////// CHOCO //////////////////////////
+
+Route::get('HistoriaC1', [HistoryController::class, 'HistoriaC1'])->name('mohan');
+Route::get('HistoriaC2', [HistoryController::class, 'HistoriaC2'])->name('anima');
+Route::get('HistoriaC3', [HistoryController::class, 'HistoriaC3'])->name('muelon');
+Route::get('HistoriaC4', [HistoryController::class, 'HistoriaC4'])->name('indio');
+
