@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/any.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>La Hora Santa Marta</h3>
@@ -46,7 +46,7 @@ Humberto Currea, pescador nacido en esta tierra, explica que en la parte norte d
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/oyelu.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>El Lucio</h3>
@@ -58,7 +58,7 @@ Humberto Currea, pescador nacido en esta tierra, explica que en la parte norte d
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/oyema.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>Mamita</h3>
@@ -72,7 +72,7 @@ La noticia se regó por todo el pueblo, convirtiéndose la casa en un santuario 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 3.jpg') }}" >
+            <img src="{{ asset('local_storage/img/missed.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>Mohana</h3>

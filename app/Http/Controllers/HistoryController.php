@@ -150,7 +150,7 @@ return view('leyenda');
   //////////////////////////////CUNDINAMARCA//////////////////////////
 
   public function HistoriaC1 (){
-    return view('HistoriasCundinamarca.Historia3Brujas');
+    return view('HistoriasCundinamarca.HistoriaBrujas');
   }
   public function HistoriaCu1 (){
     return view('HistoriasCundinamarca.Historia3Brujas2');

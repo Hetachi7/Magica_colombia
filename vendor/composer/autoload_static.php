@@ -54,6 +54,7 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
             'Tests\\' => 6,
             'Termwind\\' => 9,
+            'TakiElias\\Tablar\\' => 17,
         ),
         'S' => 
         array (
@@ -124,6 +125,7 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
             'League\\Flysystem\\' => 17,
             'League\\Config\\' => 14,
             'League\\CommonMark\\' => 18,
+            'Laravel\\Ui\\' => 11,
             'Laravel\\Tinker\\' => 15,
             'Laravel\\SerializableClosure\\' => 28,
             'Laravel\\Sanctum\\' => 16,
@@ -133,6 +135,7 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
         'I' => 
         array (
             'Illuminate\\Support\\' => 19,
+            'Illuminate\\Foundation\\Auth\\' => 27,
             'Illuminate\\' => 11,
         ),
         'G' => 
@@ -202,6 +205,10 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
         'Termwind\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/termwind/src',
+        ),
+        'TakiElias\\Tablar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/takielias/tablar/src',
         ),
         'Symfony\\Polyfill\\Uuid\\' => 
         array (
@@ -353,8 +360,8 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -412,6 +419,10 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
         array (
             0 => __DIR__ . '/..' . '/league/commonmark/src',
         ),
+        'Laravel\\Ui\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/ui/src',
+        ),
         'Laravel\\Tinker\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/tinker/src',
@@ -437,6 +448,10 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Macroable',
             1 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections',
             2 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Conditionable',
+        ),
+        'Illuminate\\Foundation\\Auth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/ui/auth-backend',
         ),
         'Illuminate\\' => 
         array (
@@ -538,10 +553,17 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
         'App\\Factories\\ConfigurationResolverFactory' => __DIR__ . '/..' . '/laravel/pint/app/Factories/ConfigurationResolverFactory.php',
         'App\\Fixers\\LaravelPhpdocAlignmentFixer' => __DIR__ . '/..' . '/laravel/pint/app/Fixers/LaravelPhpdocAlignmentFixer.php',
         'App\\Http\\Controllers\\ApiController' => __DIR__ . '/../..' . '/app/Http/Controllers/ApiController.php',
+        'App\\Http\\Controllers\\Auth\\ConfirmPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ConfirmPasswordController.php',
+        'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
+        'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
+        'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
+        'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
+        'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\CreateHistoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/CreateHistoryController.php',
         'App\\Http\\Controllers\\DepartamentUserController' => __DIR__ . '/../..' . '/app/Http/Controllers/DepartamentUserController.php',
         'App\\Http\\Controllers\\HistoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/HistoryController.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\ImagenHsitoriaController' => __DIR__ . '/../..' . '/app/Http/Controllers/ImagenHsitoriaController.php',
         'App\\Http\\Controllers\\IndexController' => __DIR__ . '/../..' . '/app/Http/Controllers/IndexController.php',
         'App\\Http\\Controllers\\LoginUserController' => __DIR__ . '/../..' . '/app/Http/Controllers/LoginUserController.php',
@@ -2133,8 +2155,16 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
         'Illuminate\\Foundation\\Application' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Application.php',
         'Illuminate\\Foundation\\Auth\\Access\\Authorizable' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Auth/Access/Authorizable.php',
         'Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php',
+        'Illuminate\\Foundation\\Auth\\AuthenticatesUsers' => __DIR__ . '/..' . '/laravel/ui/auth-backend/AuthenticatesUsers.php',
+        'Illuminate\\Foundation\\Auth\\ConfirmsPasswords' => __DIR__ . '/..' . '/laravel/ui/auth-backend/ConfirmsPasswords.php',
         'Illuminate\\Foundation\\Auth\\EmailVerificationRequest' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Auth/EmailVerificationRequest.php',
+        'Illuminate\\Foundation\\Auth\\RedirectsUsers' => __DIR__ . '/..' . '/laravel/ui/auth-backend/RedirectsUsers.php',
+        'Illuminate\\Foundation\\Auth\\RegistersUsers' => __DIR__ . '/..' . '/laravel/ui/auth-backend/RegistersUsers.php',
+        'Illuminate\\Foundation\\Auth\\ResetsPasswords' => __DIR__ . '/..' . '/laravel/ui/auth-backend/ResetsPasswords.php',
+        'Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails' => __DIR__ . '/..' . '/laravel/ui/auth-backend/SendsPasswordResetEmails.php',
+        'Illuminate\\Foundation\\Auth\\ThrottlesLogins' => __DIR__ . '/..' . '/laravel/ui/auth-backend/ThrottlesLogins.php',
         'Illuminate\\Foundation\\Auth\\User' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Auth/User.php',
+        'Illuminate\\Foundation\\Auth\\VerifiesEmails' => __DIR__ . '/..' . '/laravel/ui/auth-backend/VerifiesEmails.php',
         'Illuminate\\Foundation\\Bootstrap\\BootProviders' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php',
         'Illuminate\\Foundation\\Bootstrap\\HandleExceptions' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php',
         'Illuminate\\Foundation\\Bootstrap\\LoadConfiguration' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php',
@@ -2885,6 +2915,15 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
         'Laravel\\Tinker\\TinkerServiceProvider' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerServiceProvider.php',
+        'Laravel\\Ui\\AuthCommand' => __DIR__ . '/..' . '/laravel/ui/src/AuthCommand.php',
+        'Laravel\\Ui\\AuthRouteMethods' => __DIR__ . '/..' . '/laravel/ui/src/AuthRouteMethods.php',
+        'Laravel\\Ui\\ControllersCommand' => __DIR__ . '/..' . '/laravel/ui/src/ControllersCommand.php',
+        'Laravel\\Ui\\Presets\\Bootstrap' => __DIR__ . '/..' . '/laravel/ui/src/Presets/Bootstrap.php',
+        'Laravel\\Ui\\Presets\\Preset' => __DIR__ . '/..' . '/laravel/ui/src/Presets/Preset.php',
+        'Laravel\\Ui\\Presets\\React' => __DIR__ . '/..' . '/laravel/ui/src/Presets/React.php',
+        'Laravel\\Ui\\Presets\\Vue' => __DIR__ . '/..' . '/laravel/ui/src/Presets/Vue.php',
+        'Laravel\\Ui\\UiCommand' => __DIR__ . '/..' . '/laravel/ui/src/UiCommand.php',
+        'Laravel\\Ui\\UiServiceProvider' => __DIR__ . '/..' . '/laravel/ui/src/UiServiceProvider.php',
         'League\\CommonMark\\CommonMarkConverter' => __DIR__ . '/..' . '/league/commonmark/src/CommonMarkConverter.php',
         'League\\CommonMark\\ConverterInterface' => __DIR__ . '/..' . '/league/commonmark/src/ConverterInterface.php',
         'League\\CommonMark\\Delimiter\\Delimiter' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/Delimiter.php',
@@ -6599,6 +6638,34 @@ class ComposerStaticInitdf243c3418fa09e6f8b56a6114674452
         'Symfony\\Polyfill\\Php80\\PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/PhpToken.php',
         'Symfony\\Polyfill\\Php83\\Php83' => __DIR__ . '/..' . '/symfony/polyfill-php83/Php83.php',
         'Symfony\\Polyfill\\Uuid\\Uuid' => __DIR__ . '/..' . '/symfony/polyfill-uuid/Uuid.php',
+        'TakiElias\\Tablar\\Console\\TablarExportAllCommand' => __DIR__ . '/..' . '/takielias/tablar/src/Console/TablarExportAllCommand.php',
+        'TakiElias\\Tablar\\Console\\TablarExportAssetsCommand' => __DIR__ . '/..' . '/takielias/tablar/src/Console/TablarExportAssetsCommand.php',
+        'TakiElias\\Tablar\\Console\\TablarExportAuthCommand' => __DIR__ . '/..' . '/takielias/tablar/src/Console/TablarExportAuthCommand.php',
+        'TakiElias\\Tablar\\Console\\TablarExportConfigCommand' => __DIR__ . '/..' . '/takielias/tablar/src/Console/TablarExportConfigCommand.php',
+        'TakiElias\\Tablar\\Console\\TablarExportJsCommand' => __DIR__ . '/..' . '/takielias/tablar/src/Console/TablarExportJsCommand.php',
+        'TakiElias\\Tablar\\Console\\TablarExportViewsCommand' => __DIR__ . '/..' . '/takielias/tablar/src/Console/TablarExportViewsCommand.php',
+        'TakiElias\\Tablar\\Console\\TablarInstallCommand' => __DIR__ . '/..' . '/takielias/tablar/src/Console/TablarInstallCommand.php',
+        'TakiElias\\Tablar\\Console\\TablarUpdateCommand' => __DIR__ . '/..' . '/takielias/tablar/src/Console/TablarUpdateCommand.php',
+        'TakiElias\\Tablar\\Events\\BuildingMenu' => __DIR__ . '/..' . '/takielias/tablar/src/Events/BuildingMenu.php',
+        'TakiElias\\Tablar\\Helpers\\LayoutHelper' => __DIR__ . '/..' . '/takielias/tablar/src/Helpers/LayoutHelper.php',
+        'TakiElias\\Tablar\\Helpers\\MenuItemHelper' => __DIR__ . '/..' . '/takielias/tablar/src/Helpers/MenuItemHelper.php',
+        'TakiElias\\Tablar\\Helpers\\NavbarItemHelper' => __DIR__ . '/..' . '/takielias/tablar/src/Helpers/NavbarItemHelper.php',
+        'TakiElias\\Tablar\\Helpers\\SidebarItemHelper' => __DIR__ . '/..' . '/takielias/tablar/src/Helpers/SidebarItemHelper.php',
+        'TakiElias\\Tablar\\Http\\Controllers\\Controller' => __DIR__ . '/..' . '/takielias/tablar/src/Http/Controllers/Controller.php',
+        'TakiElias\\Tablar\\Http\\ViewComposers\\TablarComposer' => __DIR__ . '/..' . '/takielias/tablar/src/Http/ViewComposers/TablarComposer.php',
+        'TakiElias\\Tablar\\Menu\\ActiveChecker' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/ActiveChecker.php',
+        'TakiElias\\Tablar\\Menu\\Builder' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/Builder.php',
+        'TakiElias\\Tablar\\Menu\\Filters\\ActiveFilter' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/Filters/ActiveFilter.php',
+        'TakiElias\\Tablar\\Menu\\Filters\\ClassesFilter' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/Filters/ClassesFilter.php',
+        'TakiElias\\Tablar\\Menu\\Filters\\DataFilter' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/Filters/DataFilter.php',
+        'TakiElias\\Tablar\\Menu\\Filters\\FilterInterface' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/Filters/FilterInterface.php',
+        'TakiElias\\Tablar\\Menu\\Filters\\GateFilter' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/Filters/GateFilter.php',
+        'TakiElias\\Tablar\\Menu\\Filters\\HrefFilter' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/Filters/HrefFilter.php',
+        'TakiElias\\Tablar\\Menu\\Filters\\LangFilter' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/Filters/LangFilter.php',
+        'TakiElias\\Tablar\\Menu\\Filters\\SearchFilter' => __DIR__ . '/..' . '/takielias/tablar/src/Menu/Filters/SearchFilter.php',
+        'TakiElias\\Tablar\\Tablar' => __DIR__ . '/..' . '/takielias/tablar/src/Tablar.php',
+        'TakiElias\\Tablar\\TablarPreset' => __DIR__ . '/..' . '/takielias/tablar/src/TablarPreset.php',
+        'TakiElias\\Tablar\\TablarServiceProvider' => __DIR__ . '/..' . '/takielias/tablar/src/TablarServiceProvider.php',
         'Termwind\\Actions\\StyleToMethod' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Actions/StyleToMethod.php',
         'Termwind\\Components\\Anchor' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Components/Anchor.php',
         'Termwind\\Components\\BreakLine' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Components/BreakLine.php',

@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/avary.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>El Bari</h3>
@@ -44,7 +44,7 @@
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/trelife.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>El Arbol De Vida</h3>
@@ -56,7 +56,7 @@
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/al.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>El Espanto En El Pueblo</h3>
@@ -70,7 +70,7 @@ Para solucionar el problema el padre invitó a unas personas para ir al pie de l
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 3.jpg') }}" >
+            <img src="{{ asset('local_storage/img/edrunk.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>El Borracho</h3>

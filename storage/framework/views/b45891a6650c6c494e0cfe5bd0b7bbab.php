@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/virgen.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/tolimax.png.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>El Luango</h3>
@@ -45,7 +45,7 @@ Sin embargo, al morir la gente le construyó una camilla, pero el cuerpo se hizo
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 1.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/tigesito.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Tolimence</h3>

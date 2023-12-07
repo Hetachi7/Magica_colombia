@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/beshhio.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>Jinete Sin Jamarro</h3>
@@ -46,7 +46,7 @@ El mito cuenta que viaja acompañado de un caballo negro como la noche más oscu
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/eanim.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>El Anima Sola</h3>
@@ -59,11 +59,12 @@ Dos relieves montañosos y entre ellos el río Magdalena. Del río sale el arco 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 6.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>La virgen de Caquiona</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores nam repellendus dolor itaque, delectus fuga debitis corporis facilis veritatis.</p>
+            <p>La virguen de cquiona se caracteriza por destacar la tradicion paisa de  Todos la llaman “Mamá Concia”. representan como una mujer que padece tormentos en el purgatorio y recorre los caminos con las manos atadas con cadenas, asustando a todas las personas que se crucen en su camino.
+Desde luegDicen los abuelos que ella se apareció en una montaña grande que era muy pendiente.</p>
             <a href="{{route('leyenda')}}">Leer más</a>
 
         </div>
@@ -71,7 +72,7 @@ Dos relieves montañosos y entre ellos el río Magdalena. Del río sale el arco 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 3.jpg') }}" >
+            <img src="{{ asset('local_storage/img/horaki.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>Hojaraki</h3>

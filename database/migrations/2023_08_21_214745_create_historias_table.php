@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('nombre');
             $table->string('genero');
-        
+            $table->unsignedBigInterger('users_id');
+            
             $table->timestamps();
         });
     }

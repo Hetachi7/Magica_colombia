@@ -69,4 +69,7 @@ class ApiController extends Controller
      ]);
  }
 
+ public function users (Request $request) {
+ $user = Users::all();
+}
 }

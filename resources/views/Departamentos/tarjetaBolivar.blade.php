@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/peso.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>El Animero</h3>
@@ -46,7 +46,7 @@ Era seguido por dos largas filas de ánimas en pena que salían para poder desca
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/why.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>El Nazareno De Otro Mundo</h3>
@@ -61,7 +61,7 @@ Dicen que es un nazareno que su promesa incumplió y por eso Dios lo castigó, y
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/dñnoria.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>El Pozo De Noria</h3>
@@ -76,7 +76,7 @@ Mientras no me den lo que necesito, yo sigo siendo la dueña y señora del Pozo 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 3.jpg') }}" >
+            <img src="{{ asset('local_storage/img/crazyho.png') }}" >
         </figure>
         <div class="contenido">
             <h3>Caballo Cojo</h3>

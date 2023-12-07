@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/virgen.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/com.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Grupos Ancestrales</h3>
@@ -44,7 +44,7 @@
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 1.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/aish.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Mamont</h3>
@@ -59,7 +59,7 @@
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/sranillos.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>El Hojarasquin</h3>

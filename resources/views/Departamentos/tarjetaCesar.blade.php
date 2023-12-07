@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/levag.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>Leyenda Vallenata</h3>
@@ -44,7 +44,7 @@
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/jmm.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>Espantos Aparecidos</h3>
@@ -58,7 +58,7 @@ Cuenta la gente de antaño que en épocas de luna nueva y luna llena aparecía p
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/sietecab.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>La Cueva Los Siete Caballos</h3>
@@ -72,7 +72,7 @@ Los siete caballeros sorprendidos le preguntaron si conocía un lugar oculto don
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 3.jpg') }}" >
+            <img src="{{ asset('local_storage/img/ceiba.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>La Seiva</h3>

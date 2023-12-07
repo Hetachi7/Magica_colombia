@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/virgen.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/lavi.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Leyenda Sayona</h3>
@@ -46,7 +46,7 @@ Según relata uno de los abuelos, la historia va más o menos así: “resulta q
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 1.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/maveric.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Madre Vieja</h3>
@@ -62,7 +62,7 @@ Cuenta también la tradición primitivo-popular de Arauca que en el preciso mome
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/agupec.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Superticiones</h3>
@@ -83,7 +83,7 @@ Se cree que si uno unta limón en la mordedura de un perro, habiendo dejado la m
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 3.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/lasayo.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Agueros</h3>

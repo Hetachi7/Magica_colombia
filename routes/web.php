@@ -168,9 +168,9 @@ Route::get('HistoriaCA3', [HistoryController::class, 'HistoriaCA3'])->name('pati
 Route::get('HistoriaCau4', [HistoryController::class, 'HistoriaCau4'])->name('sebas');
 
 ////////////////////////////////////////CUNDINAMARCA/////////////////////////////////////////////////////////////
-Route::get('HistoriaC1', [HistoryController::class, 'HistoriaC1'])->name('3brujas');
+Route::get('HistoriaC1', [HistoryController::class, 'HistoriaC1'])->name('brujas');
 Route::get('HistoriaC2', [HistoryController::class, 'HistoriaC2'])->name('david');
-Route::get('HistoriaCu2', [HistoryController::class, 'HistoriacU2'])->name('david2');
+Route::get('HistoriaCu2', [HistoryController::class, 'HistoriacU2'])->name('david');
 Route::get('HistoriaC3', [HistoryController::class, 'HistoriaC3'])->name('Dama');
 Route::get('HistoriaCu3', [HistoryController::class, 'HistoriaCu3'])->name('Dama2');
 ////////////////////////////////////////GUAINIA//////////////////////////////////////////////////////////////////
@@ -341,3 +341,16 @@ Route::get('HistoriaC2', [HistoryController::class, 'HistoriaC2'])->name('anima'
 Route::get('HistoriaC3', [HistoryController::class, 'HistoriaC3'])->name('muelon');
 Route::get('HistoriaC4', [HistoryController::class, 'HistoriaC4'])->name('indio');
 
+///////////////////////////// SUCRE ////////////////////////
+
+Route::get('HistoriaSU1', [HistoryController::class, 'HistoriaSU1'])->name('corco');
+Route::get('HistoriaSU2', [HistoryController::class, 'HistoriaSU2'])->name('lara');
+Route::get('HistoriaSU3', [HistoryController::class, 'HistoriaSU3'])->name('muelon');
+Route::get('HistoriaSU4', [HistoryController::class, 'HistoriaSU4'])->name('indio');
+
+
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

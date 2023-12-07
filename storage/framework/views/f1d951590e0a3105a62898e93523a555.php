@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/virgen.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/pataentarro.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Patetarro</h3>
@@ -44,7 +44,7 @@
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 1.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/mamont.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>La Madre Monte</h3>
@@ -59,7 +59,7 @@ Vive en sitios enmarañados, con árboles frondosos, alejada del ruido de la civ
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/jajaja.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Pata Sola</h3>
@@ -71,7 +71,7 @@ Vive en sitios enmarañados, con árboles frondosos, alejada del ruido de la civ
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="<?php echo e(asset('local_storage/img/cauca/Caquiona/imagen 3.jpg')); ?>" >
+            <img src="<?php echo e(asset('local_storage/img/cositas.jpg')); ?>" >
         </figure>
         <div class="contenido">
             <h3>Aguersticiones</h3>

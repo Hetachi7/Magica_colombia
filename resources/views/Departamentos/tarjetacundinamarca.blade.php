@@ -49,7 +49,7 @@
         <div class="contenido">
             <h3>Historia de las Tres Brujas</h3>
             <p>Se cuenta que en la edad de las brujas, en las montañas de los Ibores, una madre noble tuvo tres hijas, Tina, Tina y Mada. La ira de una criada [contra la madre, por darle tanto trabajo con las tres hijas], que era bruja, hizo que las enseñara el arte de la brujería.</p>
-            <a href="{{route('3brujas')}}">Leer más</a>
+            <a href="{{route('brujas')}}">Leer más</a>
 
         </div>
 

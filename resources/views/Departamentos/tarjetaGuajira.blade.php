@@ -32,7 +32,7 @@
 <div class="container">
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/virgen.jpg') }}" >
+            <img src="{{ asset('local_storage/img/fransis.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>Francisco El Hombre</h3>
@@ -47,7 +47,7 @@ Cuenta la leyenda que, una noche estrellada y de luna clara Francisco el hombre 
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 1.jpg') }}" >
+            <img src="{{ asset('local_storage/img/keshii.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>Keralia</h3>
@@ -62,7 +62,7 @@ Keralia se transforma en persona al enamorarse y visita a la joven que le haya e
     </div>
     <div class="tarjetas">
         <figure>
-            <img src="{{ asset('local_storage/img/cauca/Caquiona/imagen 2.jpeg') }}" >
+            <img src="{{ asset('local_storage/img/jinete.jpg') }}" >
         </figure>
         <div class="contenido">
             <h3>EL JINETE</h3>
