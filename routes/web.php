@@ -169,7 +169,6 @@ Route::get('HistoriaCau4', [HistoryController::class, 'HistoriaCau4'])->name('se
 
 ////////////////////////////////////////CUNDINAMARCA/////////////////////////////////////////////////////////////
 Route::get('HistoriaC1', [HistoryController::class, 'HistoriaC1'])->name('3brujas');
-Route::get('HistoriaCu1', [HistoryController::class, 'HistoriaCu1'])->name('3brujas2');
 Route::get('HistoriaC2', [HistoryController::class, 'HistoriaC2'])->name('david');
 Route::get('HistoriaCu2', [HistoryController::class, 'HistoriacU2'])->name('david2');
 Route::get('HistoriaC3', [HistoryController::class, 'HistoriaC3'])->name('Dama');
