@@ -63,9 +63,17 @@
                     border: 2px solid rgb(139, 0, 0);
                     border-radius: 5px;
                     color: white; ">
-                        <option value="opcion1">Amazonas</option>
-                        <option value="opcion2">Opción 2</option>
-                        <option value="opcion3">Opción 3</option>
+                        <option value="opcion1">Cauca</option>
+                        <option value="opcion2">Valle Del Cauca</option>
+                        <option value="opcion3">Caqueta</option>
+                        <option value="opcion3">Nariño</option>
+                        <option value="opcion3">Caldas</option>
+                        <option value="opcion3">Antioquia</option>
+                        <option value="opcion3">Norte De Santander</option>
+                        <option value="opcion3">Cundinamarca</option>
+                        <option value="opcion3">Choco</option>
+                        <option value="opcion3">Arauca</option>
+                        <option value="opcion3">Meta</option>
                     </select>
 
                     <br>
@@ -79,9 +87,16 @@
                     border: 2px solid rgb(139, 0, 0);
                     border-radius: 5px;
                     color: white;">
-                        <option value="opcion1">Opción 1</option>
-                        <option value="opcion2">Opción 2</option>
-                        <option value="opcion3">Opción 3</option>
+                        <option value="opcion1">Popayan</option>
+                        <option value="opcion2">Cali</option>
+                        <option value="opcion3">Nariño</option>
+                        <option value="opcion3">Santander De Quilichao</option>
+                        <option value="opcion3">Medellin</option>
+                        <option value="opcion3">Pereira</option>
+                        <option value="opcion3">Villavicencio</option>
+                        <option value="opcion3">Risaralda</option>
+                        <option value="opcion3">Bogota</option>
+
                     </select>
                     <br>
                     <label  style="color: aliceblue; font-size: 30px;" for="opciones3">De que genero es tu historia:</label>
@@ -94,9 +109,11 @@
                     border: 2px solid rgb(139, 0, 0);
                     border-radius: 5px;
                     color: white;">
-                        <option value="opcion1">Opción 1</option>
-                        <option value="opcion2">Opción 2</option>
-                        <option value="opcion3">Opción 3</option>
+                        <option value="opcion1">Thriller</option>
+                        <option value="opcion2">Gore</option>
+                        <option value="opcion3"> Paranormal</option>
+                        <option value="opcion3">Relatos e Historias Personale</option>
+                        <option value="opcion3">Drama-Fantasia</option>
                     </select>
                     
             </div>

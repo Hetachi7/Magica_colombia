@@ -35,8 +35,8 @@
 
     <div class="pregunta"><img src="<?php echo e(asset('local_storage/img/quiensomos.png')); ?>"  id="historia"></div>
 
-<p><h2>Somos un aplicativo creado con el fin de dar a conocer todas esas historias que cubren nuestro hermoso
-    pais colombiano
+<p><h2>Somos un aplicativo creado con el fin de dar a conocer todas esas historias tradicionales, aquellos relatos que cubren nuestro hermoso
+    pais colombiano. Brindando a nuestros usuarios, la capasidad de interactuar en una aplicacion destinada a las magicas historias de Colombia 
 </h2></p>
 <p><h1>Nuestro Logo</h1></p>
 
