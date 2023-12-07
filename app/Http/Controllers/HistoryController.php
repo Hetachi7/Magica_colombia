@@ -96,22 +96,22 @@ return view('leyenda');
   }
   //////////////////////////////CAUCA/////////////////////////////////
   public function HistoriaCau1 (){
-    return view('HistoriasCaqueta.HistoriaElencanto');
+    return view('HistoriasCauca.HistoriaCresta');
   }
   public function HistoriaCau2 (){
-    return view('HistoriasCaqueta.HistoriaElencanto');
+    return view('HistoriasCauca.HistoriaLlorona');
   }
   public function HistoriaCA2 (){
-    return view('HistoriasCaqueta.HistoriaElencanto');
+    return view('HistoriasCaqueta.HistoriaSebastian');
   }
   public function HistoriaCau3 (){
-    return view('HistoriasCaqueta.HistoriaElencanto');
+    return view('HistoriasCauca.HistoriaPatia');
   }
   public function HistoriaCA3 (){
     return view('HistoriasCaqueta.HistoriaElencanto');
   }
   public function HistoriaCau4 (){
-    return view('HistoriasCaqueta.HistoriaElencanto');
+    return view('HistoriasCauca.HistorySebastian');
   }
   //////////////////////////////CHOCO/////////////////////////////////
   public function HistoriaCho1 (){
